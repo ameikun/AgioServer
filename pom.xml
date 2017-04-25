@@ -9,7 +9,6 @@
   <dependencies>
   </dependencies>
   <build>
-
     <finalName>AgioServer</finalName>
   </build>
 </project>

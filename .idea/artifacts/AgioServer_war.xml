@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AgioServer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="AgioServer.war">
+      <element id="artifact" artifact-name="AgioServer:war exploded" />
+    </root>
+  </artifact>
+</component>

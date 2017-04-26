@@ -19,7 +19,7 @@
 	<!-- scan the package and the sub package -->
 	<!-- 除了具有<context:annotation-config>的功能之外，<context:component-scan>还可以在指定的package下扫描以及注册javabean 
 		。 -->
-	<context:component-scan base-package="com.zju.iot" />
+	<context:component-scan base-package="com.cqu.agio" />
 
 	<!-- don't handle the static resource -->
 	<mvc:default-servlet-handler />

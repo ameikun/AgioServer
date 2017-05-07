@@ -52,6 +52,7 @@ public class User {
 			if ( source.getRegisterDate() != null )
 				this.setRegisterDate(source.getRegisterDate());
 			if ( source.getValidataCode() != null )
+
 				this.setValidataCode(source.getValidataCode());
 			if ( source.getExpierTime() != null )
 				this.setExpierTime(source.getExpierTime());

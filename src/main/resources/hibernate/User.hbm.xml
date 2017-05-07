@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+ <class name="com.cqu.agio.entity.User" table="user">
+  <id column="userID" name="userID" type="string">
+   <generator class="assigned"/>
+  </id>
+  <property generated="never" lazy="false" name="nickname" not-null="true" type="string"/>
+  <property generated="never" lazy="false" name="realname"  type="string"/>
+  <property generated="never" lazy="false" name="sex"  type="string"/>
+  <property generated="never" lazy="false" name="birthday"  type="date"/>
+  <property generated="never" lazy="false" name="phone"  type="string"/>
+  <property generated="never" lazy="false" name="email" type="string"/>
+  <property generated="never" lazy="false" name="province" type="string"/>
+  <property generated="never" lazy="false" name="city" type="string"/>
+  <property generated="never" lazy="false" name="address" type="string"/>
+  <property generated="never" lazy="false" name="registerDate"  type="date"/>
+  <property generated="never" lazy="false" name="profileImageUrl" type="string"/>
+  <property generated="never" lazy="false" name="description" type="string"/>
+  <property generated="never" lazy="false" name="validataCode" type="string"/>
+  <property generated="never" lazy="false" name="expierTime" type="long"/>
+ </class>
+</hibernate-mapping>

@@ -69,9 +69,9 @@ public class LoginController {
         // the message passed to the client to
         String msg = "";
         // if the result of check is correct, refer to this url
-        String sucessUrl = "/HituServer/user/reset?nickname="+nickname;
+        String sucessUrl = "/AgioServer/user/reset?nickname="+nickname;
         // if the result of check is failed, refer to this url
-        String failedUrl = "/HituServer/views/login.jsp";
+        String failedUrl = "/AgioServer/views/login.jsp";
         logger.info("sid: "+sid+"nickname "+nickname);
         if( sid == null || nickname == null || sid.equals("") || nickname.equals("")){
             msg="链接不完整,请重新生成";

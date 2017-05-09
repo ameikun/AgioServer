@@ -11,7 +11,7 @@ import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 /**
- * Created by amei on 17-3-22.
+ * Created by amei on 17-5-15.
  */
 @Component
 public class MailService {

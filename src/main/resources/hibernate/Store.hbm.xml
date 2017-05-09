@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+    <class name="com.cqu.agio.entity.Store" table="store">
+        <id column="storeID" name="storeID" type="string">
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="shopkeeperID" not-null="true" type="string"/>
+        <property generated="never" lazy="false" name="shopName" not-null="true" type="string"/>
+        <property  generated="never" lazy="false" name="shopimageID" type="string"/>
+        <property  generated="never" lazy="false" name="shopAddress" type="string"/>
+        <property  generated="never" lazy="false" name="startTime" type="date"/>
+        <property  generated="never" lazy="false" name="endTime" type="date"/>
+        <property  generated="never" lazy="false" name="activityID" type="string"/>
+        <property  generated="never" lazy="false" name="startLevel" type="integer"/>
+    </class>
+</hibernate-mapping>

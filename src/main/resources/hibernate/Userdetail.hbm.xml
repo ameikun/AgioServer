@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+    <class name="com.cqu.agio.entity.Userdetail" table="userdetail">
+        <id column="userID" name="userID" type="string">
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="userpoints"  type="int"/>
+        <property generated="never" lazy="false" name="userCoupon" type="string"/>
+        <property generated="never" lazy="false" name="userred" type="integer"/>
+    </class>
+</hibernate-mapping>

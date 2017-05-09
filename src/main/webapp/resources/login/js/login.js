@@ -4,8 +4,8 @@
 jQuery(document).ready(function() {
     $.backstretch("/AgioServer/resources/register/images/background.jpg");
     // remember account and password
-    account = getCookie("hitu-account")
-    password = getCookie("hitu-password")
+    account = getCookie("agio-account")
+    password = getCookie("agio-password")
     if (account != "" && password != ""){
         $("input[name=account]").val(account)
         $("input[name=password]").val(password)
@@ -76,8 +76,8 @@ function process(data) {
         setCookie("userID",data.result)
         account = $("input[name=account]").val()
         password = $("input[name=password]").val()
-        setCookie("hitu-account",account)
-        setCookie("hitu-password",password)
+        setCookie("agio-account",account)
+        setCookie("agio-password",password)
         window.location.href="/AgioServer/views/location.jsp"
     }
     else

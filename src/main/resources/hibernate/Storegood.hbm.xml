@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+    <class name="com.cqu.agio.entity.StoreGood" table="storegood">
+        <composite-id>
+            <key-property column="storeID" name="storeID" type="string">
+            </key-property>
+            <key-property column="goodID" name="goodID" type="string"/>
+        </composite-id>
+        <property  generated="never" lazy="false" name="goodName" type="string"/>
+        <property  generated="never" lazy="false" name="priceID" type="string"/>
+        <property  generated="never" lazy="false" name="goodDes" type="string"/>
+        <property  generated="never" lazy="false" name="goodClassify" type="string"/>
+    </class>
+</hibernate-mapping>

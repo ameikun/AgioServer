@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+    <class name="com.cqu.agio.entity.Picture" table="picture">
+        <composite-id>
+            <key-property column="pictureID" name="pictureID" type="string"/>
+            <key-property column="typeID" name="typeID" type="string"/>
+        </composite-id>
+        <property  generated="never" lazy="false" name="pictureLink" type="string"/>
+        <property  generated="never" lazy="false" name="pictureDes" type="string"/>
+    </class>
+</hibernate-mapping>

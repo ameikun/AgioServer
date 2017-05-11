@@ -2,14 +2,14 @@ package com.cqu.agio.entity;
 
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  * Created by Amei on 2017/5/9.
  */
 @Data
-public class Userdetail {
+public class UserScannedStore {
     private String userID;
-    private int userpoints;
-    private String userCoupon;
-    private String userred;
-
+    private String storeID;
+    private Date scannedDate;
 }

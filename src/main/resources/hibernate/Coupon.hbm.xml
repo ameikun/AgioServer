@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+    <class name="com.cqu.agio.entity.Coupon" table="coupon">
+        <id column="userID" name="userID" type="string">
+            <generator class="assigned"/>
+        </id>
+        <property  generated="never" lazy="false" name="couponLimit" type="string"/>
+        <property  generated="never" lazy="false" name="couponReason" type="string"/>
+        <property  generated="never" lazy="false" name="receiveDate" type="long"/>
+        <property  generated="never" lazy="false" name="expireDate" type="long"/>
+    </class>
+</hibernate-mapping>

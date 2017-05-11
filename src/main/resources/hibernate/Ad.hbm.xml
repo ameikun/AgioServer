@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="all">
+    <class name="com.cqu.agio.entity.Ad" table="ad">
+        <composite-id>
+            <key-property column="storeID" name="storeID" type="string"></key-property>
+            <key-property column="adID" name="adID" type="string"></key-property>
+        </composite-id>
+        <property  generated="never" lazy="false" name="adType" type="string"/>
+        <property  generated="never" lazy="false" name="adTitle" type="string"/>
+        <property  generated="never" lazy="false" name="adStartTime" type="long"/>
+        <property  generated="never" lazy="false" name="adEndTime" type="long"/>
+        <property  generated="never" lazy="false" name="adContent" type="string"/>
+        <property  generated="never" lazy="false" name="adLink" type="string"/>
+    </class>
+</hibernate-mapping>

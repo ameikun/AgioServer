@@ -2,11 +2,12 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping default-cascade="all">
-    <class name="com.cqu.agio.entity.UserCollectStore" table="usercollectstore">
+    <class name="com.cqu.agio.entity.UserPoint" table="userpoint">
         <id column="userID" name="userID" type="string">
             <generator class="assigned"/>
         </id>
-        <property  generated="never" lazy="false" name="storeID" type="string"/>
-        <property  generated="never" lazy="false" name="collectDate" type="long"/>
+        <property  generated="never" lazy="false" name="point" type="integer"/>
+        <property  generated="never" lazy="false" name="pointReason" type="string"/>
+        <property  generated="never" lazy="false" name="pointDate" type="long"/>
     </class>
 </hibernate-mapping>

@@ -20,5 +20,7 @@
   <property generated="never" lazy="false" name="description" type="string"/>
   <property generated="never" lazy="false" name="validataCode" type="string"/>
   <property generated="never" lazy="false" name="expierTime" type="long"/>
+  <property generated="never" lazy="false" name="point" type="integer"/>
+  <property generated="never" lazy="false" name="type" type="string"/>
  </class>
 </hibernate-mapping>

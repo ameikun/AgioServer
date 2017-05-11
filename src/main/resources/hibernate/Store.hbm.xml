@@ -12,7 +12,6 @@
         <property  generated="never" lazy="false" name="shopAddress" type="string"/>
         <property  generated="never" lazy="false" name="startTime" type="date"/>
         <property  generated="never" lazy="false" name="endTime" type="date"/>
-        <property  generated="never" lazy="false" name="activityID" type="string"/>
         <property  generated="never" lazy="false" name="startLevel" type="integer"/>
     </class>
 </hibernate-mapping>

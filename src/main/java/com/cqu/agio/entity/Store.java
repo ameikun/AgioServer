@@ -16,6 +16,5 @@ public class Store {
     private String shopAddress;
     private Date startTime;
     private Date endTime;
-    private String activityID;
     private int startLevel;
 }

@@ -27,6 +27,8 @@ public class User {
 	// 找回密码时用到的信息
 	private String validataCode;
 	private Long expierTime;
+	private Integer point;
+	private String type;
 	public void setUser(User source){
 		if ( source != null ){
 			if ( source.getRealname() != null )

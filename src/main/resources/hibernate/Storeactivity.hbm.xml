@@ -2,10 +2,12 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping default-cascade="all">
-    <class name="com.cqu.agio.entity.Userlikestore" table="userlikestore">
-        <id column="userID" name="userID" type="string">
+    <class name="com.cqu.agio.entity.StoreActivity" table="storeactivity">
+        <id column="activityID" name="activityID" type="string">
             <generator class="assigned"/>
         </id>
         <property  generated="never" lazy="false" name="storeID" type="string"/>
+        <property  generated="never" lazy="false" name="sactivityTitle" type="string"/>
+        <property  generated="never" lazy="false" name="sactivityInf" type="string"/>
     </class>
 </hibernate-mapping>

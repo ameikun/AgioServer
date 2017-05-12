@@ -3,9 +3,9 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping default-cascade="all">
     <class name="com.cqu.agio.entity.Ad" table="ad">
-        <composite-id>
-            <key-property column="storeID" name="storeID" type="string"></key-property>
-            <key-property column="adID" name="adID" type="string"></key-property>
+        <composite-id name="adPK" class="com.cqu.agio.bean.AdPK">
+            <key-property column="storeID" name="storeID" type="string"/>
+            <key-property column="adID" name="adID" type="string"/>
         </composite-id>
         <property  generated="never" lazy="false" name="adType" type="string"/>
         <property  generated="never" lazy="false" name="adTitle" type="string"/>

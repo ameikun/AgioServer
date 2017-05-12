@@ -1,5 +1,6 @@
 package com.cqu.agio.entity;
 
+import com.cqu.agio.bean.StoreGoodPk;
 import lombok.Data;
 
 /**
@@ -7,8 +8,7 @@ import lombok.Data;
  */
 @Data
 public class StoreGood {
-    private String storeID;
-    private String goodID;
+    private StoreGoodPk storeGoodPk;
     private String goodName;
     private String priceID;
     private String goodDes;

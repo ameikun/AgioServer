@@ -1,5 +1,6 @@
 package com.cqu.agio.entity;
 
+import com.cqu.agio.bean.PricePk;
 import lombok.Data;
 
 import java.util.Date;
@@ -9,9 +10,7 @@ import java.util.Date;
  */
 @Data
 public class Price {
-    private String storeID;
-    private String goodID;
-    private String priceID;
+    private PricePk pricePk;
     private Integer price;
     private Date priceDate;
 }

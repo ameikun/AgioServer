@@ -3,7 +3,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping default-cascade="all">
     <class name="com.cqu.agio.entity.Picture" table="picture">
-        <composite-id>
+        <composite-id name="picturePk" class="com.cqu.agio.bean.PicturePk">
             <key-property column="pictureID" name="pictureID" type="string"/>
             <key-property column="typeID" name="typeID" type="string"/>
         </composite-id>

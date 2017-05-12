@@ -3,7 +3,7 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping default-cascade="all">
     <class name="com.cqu.agio.entity.Price" table="price">
-        <composite-id>
+        <composite-id name="pricePk" class="com.cqu.agio.bean.PricePk">
             <key-property column="storeID" name="storeID" type="string"/>
             <key-property column="goodID" name="goodID" type="string"/>
             <key-property column="priceID" name="priceID" type="string"/>

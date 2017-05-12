@@ -1,5 +1,6 @@
 package com.cqu.agio.entity;
 
+import com.cqu.agio.bean.PicturePk;
 import lombok.Data;
 
 /**
@@ -7,8 +8,7 @@ import lombok.Data;
  */
 @Data
 public class Picture {
-    private String pictureID;
-    private String typeID;
+   private PicturePk picturePk;
     private String pictureLink;
     private String pictureDes;
 }

@@ -3,9 +3,8 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping default-cascade="all">
     <class name="com.cqu.agio.entity.StoreGood" table="storegood">
-        <composite-id>
-            <key-property column="storeID" name="storeID" type="string">
-            </key-property>
+        <composite-id name="storeGoodPk" class="com.cqu.agio.bean.StoreGoodPk">
+            <key-property column="storeID" name="storeID" type="string"/>
             <key-property column="goodID" name="goodID" type="string"/>
         </composite-id>
         <property  generated="never" lazy="false" name="goodName" type="string"/>

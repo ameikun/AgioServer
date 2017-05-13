@@ -6,9 +6,6 @@ import org.springframework.stereotype.Component;
 
 import javax.inject.Inject;
 
-/**
- * Created by amei on 16-12-11.
- */
 @Component
 public class PasswordDAO {
     @Inject

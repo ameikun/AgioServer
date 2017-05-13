@@ -9,10 +9,6 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by amei on 16-12-11.
- * encapsulate the basic operation of database
- */
 @Component
 public class BaseDAO {
     @Inject
@@ -21,7 +17,7 @@ public class BaseDAO {
     /**
      * insert object into database.
      * @param object: the object willed inserted
-     * @return a bolean value means whether you successfullly insert into database
+     * @return a boolean value means whether you successfullly insert into database
      */
     public boolean save(Object object){
         Session session = sessionFactory.getCurrentSession();

@@ -1,0 +1,11 @@
+.pageleft{
+    float: left;
+    width: 20%;
+    padding-top: 25px;
+}
+.pageright
+{
+    float: right;
+    width: 70%;
+    padding-top: 25px;
+}

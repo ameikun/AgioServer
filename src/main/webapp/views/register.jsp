@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hitu Loing</title>
+<title>register</title>
 <!-- CSS -->
 <link rel="stylesheet" href="/AgioServer/resources/common/css/bootstrap.css">
 <link rel="stylesheet" href="/AgioServer/resources/register/css/register.css">
@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 text">
-					<h1><strong>Hitu</strong>行程伊始</h1>
+					<h1><strong>淘折折</strong>行程伊始</h1>
 				</div>
 			</div>
 			<div class="row">

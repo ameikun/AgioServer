@@ -2,11 +2,6 @@ package com.cqu.agio.common;
 
 import java.util.HashMap;
 
-/**
- * Created by amei on 16-12-14.
- * It encapsulate the return values and return status.
- * All the message code and message content is stored in class Status.
-  */
 
 public class Message extends HashMap<String,Object>{
     private Status status;

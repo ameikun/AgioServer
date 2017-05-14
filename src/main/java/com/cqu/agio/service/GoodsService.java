@@ -15,10 +15,11 @@ import java.util.UUID;
  */
 @Component
 public class GoodsService {
+
     @Inject
     private StoreGoodDAO storeGoodDAO;
-    @Inject
-    private StoreGoodPk storeGoodPk;
+
+
 
     private Message message = new Message();
     public Message addGoods(StoreGood storeGood)
@@ -37,6 +38,7 @@ public class GoodsService {
         else {
             String storeID = UUID.randomUUID().toString();
             String goodID = UUID.randomUUID().toString();
+            StoreGoodPk storeGoodPk = new StoreGoodPk();
             storeGoodPk.setStoreID(storeID);
             storeGoodPk.setGoodID(goodID);
             storeGood.setStoreGoodPk(storeGoodPk);
@@ -44,6 +46,7 @@ public class GoodsService {
             {
                 message.setMessage(Status.RETURN_OK);
                 message.setResult(true);
+                System.out.print("-------------------"+storeGood.getGoodName());
             }
             else{
                 message.setMessage(Status.INNER_ERROR);

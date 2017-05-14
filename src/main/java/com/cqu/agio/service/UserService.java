@@ -90,7 +90,7 @@ public class UserService {
 	}
 
 	public Message registerUser(User user,String password) {
-		message.clear();
+		message.clear();//清空以前的数据
 		if (user.getNickname() == null || password == null) {
 			message.setMessage(Status.ILLEGAL_PARAMS);
 			message.setResult(false);

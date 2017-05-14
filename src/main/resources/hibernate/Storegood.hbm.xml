@@ -8,7 +8,7 @@
             <key-property column="goodID" name="goodID" type="string"/>
         </composite-id>
         <property  generated="never" lazy="false" name="goodName" type="string"/>
-        <property  generated="never" lazy="false" name="priceID" type="string"/>
+        <property  generated="never" lazy="false" name="price" type="string"/>
         <property  generated="never" lazy="false" name="goodDes" type="string"/>
         <property  generated="never" lazy="false" name="goodClassify" type="string"/>
     </class>

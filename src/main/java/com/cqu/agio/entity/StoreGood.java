@@ -10,7 +10,7 @@ import lombok.Data;
 public class StoreGood {
     private StoreGoodPk storeGoodPk;
     private String goodName;
-    private String priceID;
+    private String price;
     private String goodDes;
     private String goodClassify;
 }

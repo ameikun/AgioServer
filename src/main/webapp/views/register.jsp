@@ -47,6 +47,14 @@
 									</select>
 								</div>
 								<div class="form-group">
+									<label class="sr-only" for="form-type">type</label>
+									<select class="combobox  form-control" name="type" id="form-type">
+										<option value="consummer">消费者</option>
+										<option value="seller">商家</option>
+									</select>
+								</div>
+
+								<div class="form-group">
 									<label class="sr-only" for="form-about-yourself">About yourself</label>
 									<textarea name="description" placeholder="关于自己..."
 											  class="form-about-yourself form-control" id="form-about-yourself"></textarea>

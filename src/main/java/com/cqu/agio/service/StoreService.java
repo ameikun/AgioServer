@@ -1,47 +1,44 @@
 package com.cqu.agio.service;
 
-import com.cqu.agio.bean.StoreGoodPk;
 import com.cqu.agio.common.Message;
 import com.cqu.agio.common.Status;
-import com.cqu.agio.dao.StoreGoodDAO;
-import com.cqu.agio.entity.StoreGood;
+import com.cqu.agio.dao.StoreDAO;
+import com.cqu.agio.entity.Store;
 import org.springframework.stereotype.Component;
 
 import javax.inject.Inject;
 import java.util.UUID;
 
 /**
- * Created by Amei on 2017/5/14.
+ * Created by Amei on 2017/5/15.
  */
 @Component
-public class GoodsService {
-
+public class StoreService {
     @Inject
-    private StoreGoodDAO storeGoodDAO;
+    private StoreDAO storeDAO;
 
     private Message message = new Message();
 
-    public Message addGoods(StoreGood storeGood)
-    {
+    public Message addStore(Store store){
         message.clear();
-        if (storeGood.getGoodName()==null||storeGood.getPrice()==null)
+        if (store.getShopName()==null)
         {
             message.setMessage(Status.ILLEGAL_PARAMS);
             message.setResult(false);
         }
-        if(storeGood.getGoodName()==""||storeGood.getPrice()=="")
+        if(store.getShopName()=="")
         {
             message.setMessage(Status.ILLEGAL_PARAMS);
             message.setResult(false);
         }
         else {
-            String storeID = UUID.randomUUID().toString();//原理上获取当前店铺的ID
-            String goodID = UUID.randomUUID().toString();
-            StoreGoodPk storeGoodPk = new StoreGoodPk();
-            storeGoodPk.setStoreID(storeID);
-            storeGoodPk.setGoodID(goodID);
-            storeGood.setStoreGoodPk(storeGoodPk);
-            if (storeGoodDAO.addStoreGood(storeGood))
+            String storeID = UUID.randomUUID().toString();
+            String shopkeeperID = UUID.randomUUID().toString();//原理上获取当前用户id
+            //String shopimageID = UUID.randomUUID().toString();
+            store.setStoreID(storeID);
+            store.setShopkeeperID(shopkeeperID);
+            //store.setShopimageID(shopimageID);
+            if (storeDAO.addStore(store))
             {
                 message.setMessage(Status.RETURN_OK);
                 message.setResult(true);
@@ -53,5 +50,4 @@ public class GoodsService {
         }
         return message;
     }
-
 }

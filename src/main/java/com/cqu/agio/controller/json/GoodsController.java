@@ -24,4 +24,6 @@ public class GoodsController {
         boolean result =  goodsService.addGoods(storeGood).isSuccess();
         return result == true ? "sellerpage" : "login";//页面跳转，成功刷新页面，失败暂定跳转至登录页面
     }
+
+
 }

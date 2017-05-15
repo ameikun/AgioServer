@@ -8,6 +8,6 @@
         </id>
         <property  generated="never" lazy="false" name="point" type="integer"/>
         <property  generated="never" lazy="false" name="pointReason" type="string"/>
-        <property  generated="never" lazy="false" name="pointDate" type="long"/>
+        <property  generated="never" lazy="false" name="pointDate" type="date"/>
     </class>
 </hibernate-mapping>

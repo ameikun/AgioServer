@@ -2,8 +2,6 @@ package com.cqu.agio.entity;
 
 import lombok.Data;
 
-import java.util.Date;
-
 /**
  * Created by Amei on 2017/5/9.
  */
@@ -11,10 +9,10 @@ import java.util.Date;
 public class Store {
     private String storeID;
     private String shopkeeperID;
-    private String shopimageID;
+    private String shopimageID;//上传图片
     private String shopName;
     private String shopAddress;
-    private Date startTime;
-    private Date endTime;
-    private int startLevel;
+    private Long startTime;
+    private Long endTime;
+    private Integer startLevel;
 }

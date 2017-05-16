@@ -964,7 +964,7 @@
       <workItem from="1494655508595" duration="10568000" />
       <workItem from="1494728016615" duration="15669000" />
       <workItem from="1494832633636" duration="14754000" />
-      <workItem from="1494894252475" duration="8715000" />
+      <workItem from="1494894252475" duration="8737000" />
     </task>
     <task id="LOCAL-00001" summary="create a webapp skeleton with maven in idea">
       <created>1493084630121</created>
@@ -1036,11 +1036,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494942194377</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Business logic 4 （ok）">
+      <created>1494942232327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1494942232327</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92113000" />
+    <option name="totallyTimeSpent" value="92135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1139,7 +1146,8 @@
     <MESSAGE value="add Business logic 2( happen mistake)" />
     <MESSAGE value="add Business logic 2 （debug）success！！" />
     <MESSAGE value="add Business logic 3 （data type mistake...）" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Business logic 3 （data type mistake...）" />
+    <MESSAGE value="add Business logic 4 （ok）" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Business logic 4 （ok）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

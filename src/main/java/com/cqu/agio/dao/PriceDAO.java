@@ -1,19 +1,19 @@
 package com.cqu.agio.dao;
 
-import com.cqu.agio.entity.Ad;
+import com.cqu.agio.entity.Price;
 import org.springframework.stereotype.Component;
 
 import javax.inject.Inject;
 
 /**
- * Created by Amei on 2017/5/13.
+ * Created by Amei on 2017/5/16.
  */
 @Component
-public class AdDAO {
+public class PriceDAO {
     @Inject
     private BaseDAO baseDAO;
-    public boolean addAd(Ad ad)
+    public boolean addPrice(Price price)
     {
-        return baseDAO.save(ad);
+     return baseDAO.save(price);
     }
 }

@@ -6,9 +6,9 @@
         <id column="userID" name="userID" type="string">
             <generator class="assigned"/>
         </id>
-        <property  generated="never" lazy="false" name="couponLimit" type="string"/>
+        <property  generated="never" lazy="false" name="couponLimit" type="int"/>
         <property  generated="never" lazy="false" name="couponReason" type="string"/>
-        <property  generated="never" lazy="false" name="receiveDate" type="long"/>
-        <property  generated="never" lazy="false" name="expireDate" type="long"/>
+        <property  generated="never" lazy="false" name="receiveDate" type="string"/>
+        <property  generated="never" lazy="false" name="expireDate" type="int"/>
     </class>
 </hibernate-mapping>

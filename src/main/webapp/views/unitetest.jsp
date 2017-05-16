@@ -16,16 +16,24 @@
     <div class="">
         <input class="" placeholder="积分" name="point" type="int">
         <input class="" placeholder="积分说明" name="pointReason" type="text">
-        <button type="submit" class="">添加</button>
+        <button type="submit" class="">添加积分</button>
     </div>
 </form>
 
-<form role="form" action="/AgioServer" method="post" class="">
+<form role="form" action="/AgioServer/unit/addCoupon" method="post" class="">
     <div class="">
-        <input class="" placeholder="" name="" type="text">
-        <input class="" placeholder="" name="" type="text">
-        <input class="" placeholder="" name="" type="long">
-        <button type="submit" class="">添加</button>
+        <input class="" placeholder="优惠额度" name="couponLimit" type="int">
+        <input class="" placeholder="优惠原因" name="couponReason" type="text">
+        <input class="" placeholder="过期时间" name="expireDate" type="int">
+        <button type="submit" class="">添加优惠券</button>
+    </div>
+</form>
+
+<form role="form" action="/AgioServer/unit/addStoreActivity" method="post" class="">
+    <div class="">
+        <input class="" placeholder="店铺活动标题" name="sactivityTitle" type="text">
+        <input class="" placeholder="店铺活动信息" name="sactivityInf" type="text">
+        <button type="submit" class="">添加店铺活动</button>
     </div>
 </form>
 

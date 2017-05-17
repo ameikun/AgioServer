@@ -6,7 +6,7 @@
         <id column="commentID" name="commentID" type="string">
             <generator class="assigned"/>
         </id>
-        <property  generated="never" lazy="false" name="commentUserID" type="string"/>
+        <property  generated="never" lazy="false" name="commentUserID" not-null="true" type="string"/>
         <property  generated="never" lazy="false" name="commentContent" type="string"/>
         <property  generated="never" lazy="false" name="commentGoodID" type="string"/>
         <property  generated="never" lazy="false" name="commentDate" type="long"/>

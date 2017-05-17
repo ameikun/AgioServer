@@ -78,7 +78,7 @@ function process(data) {
         password = $("input[name=password]").val()
         setCookie("agio-account",account)
         setCookie("agio-password",password)
-        window.location.href="/AgioServer/views/location.jsp"
+        window.location.href="/AgioServer/views/unitetest.jsp"
     }
     else
         alert("login failed")

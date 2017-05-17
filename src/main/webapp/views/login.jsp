@@ -38,6 +38,7 @@
 								</label>
 							</div>
 							<button id="btn-login" class="btn btn-primary">登陆</button>
+							<a href="register.jsp">注册</a>
 						</fieldset>
 					</div>
 				</div>

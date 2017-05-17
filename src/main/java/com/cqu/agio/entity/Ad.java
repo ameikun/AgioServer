@@ -1,6 +1,5 @@
 package com.cqu.agio.entity;
 
-import com.cqu.agio.bean.AdPK;
 import lombok.Data;
 
 import java.util.Date;
@@ -10,7 +9,8 @@ import java.util.Date;
  */
 @Data
 public class Ad {
-    private AdPK adPK;
+    private String adID;
+    private String storeID;
     private String adType;
     private String adTitle;
     private Date adStartTime;

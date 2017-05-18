@@ -1,6 +1,3 @@
-/**
- * Created by amei on 16-11-21.
- */
 jQuery(document).ready(function() {
     $.backstretch("/AgioServer/resources/register/images/background.jpg");
     // remember account and password
@@ -81,7 +78,7 @@ function process(data) {
         window.location.href="/AgioServer/views/unitetest.jsp"
     }
     else
-        alert("login failed")
+        alert("login failed！")
 }
 
 function setCookie(c_name,value)

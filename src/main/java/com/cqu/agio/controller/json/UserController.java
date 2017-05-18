@@ -57,7 +57,8 @@ public class UserController {
 
 	@RequestMapping(value = "/weblogin")
 	@ResponseBody
-	public Message login(Integer type,String account, String password) {
+	public Message login(Integer type,String account, String password)
+	{
 		return service.login(type,account,password);
 	}
 

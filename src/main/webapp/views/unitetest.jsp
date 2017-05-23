@@ -9,6 +9,15 @@
 <html>
 <head>
     <title>统一暂时页面</title>
+    <script type="text/javascript">
+        var attime;
+        function clock(){
+            var time=new Date();
+            attime=time.getHours()+":"+time.getMinutes()+":"+time.getSeconds();
+            document.getElementById("clock").value = attime;
+        }
+        setInterval(clock,1000);
+    </script>
     <link href="/AgioServer/resources/common/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
@@ -37,5 +46,10 @@
     </div>
 </form>
 
+<input class="" id="form-account" placeholder="用户名" name="account" type="text" autofocus="">
+
+<input type="text" id="clock" size="50" style="color:#0094ff;width:60px";  />
+
+<script src="/AgioServer/resources/login/js/login.js"></script>
 </body>
 </html>

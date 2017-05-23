@@ -46,10 +46,7 @@
     </div>
 </form>
 
-<input class="" id="form-account" placeholder="用户名" name="account" type="text" autofocus="">
-
 <input type="text" id="clock" size="50" style="color:#0094ff;width:60px";  />
 
-<script src="/AgioServer/resources/login/js/login.js"></script>
 </body>
 </html>

@@ -12,30 +12,12 @@
     <link href="/AgioServer/resources/mainpage/css/mainpage.css" rel="stylesheet">
 </head>
 <body>
-<div class="welcome">
-<script type="text/javascript">
-    function getCookie(c_name)
-    {
-        if (document.cookie.length>0)
-        {
-            c_start=document.cookie.indexOf(c_name + "=")
-            if (c_start!=-1)
-            {
-                c_start=c_start + c_name.length+1
-                c_end=document.cookie.indexOf(";",c_start)
-                if (c_end==-1) c_end=document.cookie.length
-                return unescape(document.cookie.substring(c_start,c_end))
-            }
-        }
-        return ""
-    }
-    var welcome = "     欢迎你！";
-    var name = getCookie("agio-account");
-    document.write("&nbsp;&nbsp;&nbsp");
-    document.write(welcome);
-    document.write(name);
-</script>
+<jsp:include page="/views/header.jsp"/>
+<div class="midhead">
+    <iframe name="midsearch" width=100% marginwidth=0 marginheight=0
+            frameborder="no" border="0"  src="midsearch.jsp" ></iframe>
 </div>
+
 <div class="header-wrap">
     <div class="navwrap">
         <div id="nav">
@@ -45,8 +27,8 @@
                 <a href="#">餐饮美食</a>
                 <a href="#">休闲娱乐</a>
                 <a href="#">旅游住宿</a>
-                <a href="#">生活服务</a>
-                <a href="#">丽人市场</a>
+                <a href="#">附近服务</a>
+                <a href="#">学习教育</a>
                 <a href="#">服饰商品</a>
             </div>
             <div class="pros subpage">
@@ -116,7 +98,7 @@
                             <span><em class="morehot"><a class="morehot" href="#">婚纱摄影(212)</a></em></span>
                             <span><em><a href="#">儿童摄影(1)</a></em></span>
                             <span><em><a href="#">汽车养护(3)</a></em></span>
-                            <span><em><a href="#">教育培训(91)</a></em></span>
+                            <span><em><a href="#">美容美甲(91)</a></em></span>
                             <span><em><a href="#">体检(8)</a></em></span>
                             <span><em><a href="#">口腔(1)</a></em></span>
                             <span><em><a href="#">其他(8)</a></em></span>
@@ -124,14 +106,14 @@
                     </li>
                     <li class="women">
                         <i>&gt;</i>
-                        <a class="ti" href="#">丽人</a>
-                        <a href="#">美发</a>
-                        <a href="#">美容美体</a>
+                        <a class="ti" href="#">教育</a>
+                        <a href="#">家教</a>
+                        <a href="#">补习班</a>
                         <div class="prosmore hide">
                             <span><em><a href="#">全部(14)</a></em></span>
-                            <span><em class="morehot"><a class="morehot" href="#">美发(7)</a></em></span>
-                            <span><em><a href="#">美甲(3)</a></em></span>
-                            <span><em><a href="#">美容美体(4)</a></em></span>
+                            <span><em class="morehot"><a class="morehot" href="#">家教(7)</a></em></span>
+                            <span><em><a href="#">音乐补习(3)</a></em></span>
+                            <span><em><a href="#">跆拳道(4)</a></em></span>
                         </div>
                     </li>
                     <li class="goods bd-solid">

@@ -3,14 +3,61 @@
 a,img{border:0;color:#333;text-decoration:none;}
 body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
 
-.welcome{
-    font-size: 16px;
-    font-family: 华文新魏;
-    color: #000000;
-    background: #e6e6fa;
-    width: 20%;
-    height: 25px;
+.midhead{
+    height: 120px;
+    width: 100%;
+    /*background:#ff6666;*/
 }
+/* zySearch */
+.zySearch{
+    position: fixed;
+    height: 50px;
+    width:500px;
+    margin-left: 52%;
+    top: 45px;
+    /*background:#ffff00;*/
+}
+.zySearch .search-img
+{
+    background:url("../images/chicken.gif") no-repeat scroll left top transparent;
+    display:block;
+    height:0;
+    left:30%;
+    margin-left:-12px;
+    position:absolute;
+    top:10px;
+    width:24px;
+}
+.zySearch .search-input
+{
+    color: #e9625d;
+    border:1px solid #e25258;
+    height:35px;
+    line-height:33px;
+    margin-right:7px;
+    padding:0 10px;
+    width:300px;
+}
+.zySearch .search-btn
+{
+    background:none repeat scroll 0 0 #F04243;
+    border:0 none;border-radius:0;
+    color:#FFFFFF;
+    cursor:pointer;
+    height:35px;
+    line-height:33px;padding:0;
+    vertical-align:baseline !important;
+    width:76px;
+    text-align:center;
+    vertical-align:middle;
+    white-space:nowrap;
+    margin-bottom:30px;
+    font-weight:normal;
+    font-size:14px;
+    display:inline-block;
+    position:relative;
+}
+
 
 .hide{display:none}
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}

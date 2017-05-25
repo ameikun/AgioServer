@@ -17,7 +17,7 @@
 
 <div class="tipCon" id="tipCon">
     <div class="clickMe" id="clickMe">是不是你的菜？
-        <a href="javascrip:void(0);" id="closeBtn"></a>
+        <a href="javascript:void(0);" id="closeBtn"></a>
     </div>
     <div class="showPic" id="showPic">
         <a href="store.jsp"> <img src="../resources/mainfirstpage/images/fruit1.gif" /></a>

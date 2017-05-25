@@ -15,47 +15,36 @@
     <div class="container">
         <div class="head">
             <div class="logo">
-                <a href="/AgioServer/views/location.jsp"><img src="/AgioServer/resources/common/images/logo.png" alt=""/></a>
+                <script type="text/javascript">
+                    function getCookie(c_name)
+                    {
+                        if (document.cookie.length>0)
+                        {
+                            c_start=document.cookie.indexOf(c_name + "=")
+                            if (c_start!=-1)
+                            {
+                                c_start=c_start + c_name.length+1
+                                c_end=document.cookie.indexOf(";",c_start)
+                                if (c_end==-1) c_end=document.cookie.length
+                                return unescape(document.cookie.substring(c_start,c_end))
+                            }
+                        }
+                        return ""
+                    }
+                    var welcome = "欢迎你！";
+                    var name = getCookie("agio-account");
+                    document.write("&nbsp;&nbsp;&nbsp");
+                    document.write(welcome);
+                    document.write(name);
+                </script>
             </div>
             <div class="navigation">
                 <span class="menu"></span>
                 <ul class="navig">
-                    <li><a id = "home_li" href="#" class="hvr-bounce-to-bottom">景点</a></li>
-                    <li><a id = "plan_li" href="#"  class="hvr-bounce-to-bottom">计划</a></li>
-                    <li><a id = "personal_li" href="#" class="hvr-bounce-to-bottom">个人中心</a></li>
+                    <li><a id = "home_li" href="mainpage.jsp" class="hvr-bounce-to-bottom">主页</a></li>
+                    <li><a id = "plan_li" href="usercollect.jsp"  class="hvr-bounce-to-bottom">收藏夹</a></li>
+                    <li><a id = "personal_li" href="personmainpage.jsp" class="hvr-bounce-to-bottom">个人中心</a></li>
                     <li><a id = "contact_li" href="#" class="hvr-bounce-to-bottom">联系我们</a></li>
-                    <!--
-                    <li class="hvr-bounce-to-bottom">
-                        <a id = "#" href="#" class="glyphicon glyphicon-user"></a>
-                        <div id="loginBox">
-                            <form id="loginForm">
-                                <fieldset id="body">
-                                    <fieldset>
-                                        <label for="email">Email Address</label>
-                                        <input type="text" name="email" id="email">
-                                    </fieldset>
-                                    <fieldset>
-                                        <label for="password">Password</label>
-                                        <input type="password" name="password" id="password">
-                                    </fieldset>
-                                    <input type="submit" id="login" value="Sign in">
-                                    <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
-                                </fieldset>
-                                <p>New User ? <a class="sign" href="account.html">Sign Up</a> <span><a href="#">Forgot your password?</a></span></p>
-                            </form>
-                        </div>
-                    </li>
-                    <li class="hvr-bounce-to-bottom">
-                        <a id = "#" href="#" class="glyphicon glyphicon-shopping-cart"></a>
-                        <div class="cart-box">
-                            <h4><a href="checkout.html">
-                                <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)
-                            </a></h4>
-                            <p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
-                            <div class="clearfix"> </div>
-                        </div>
-                    </li>
-                    -->
                 </ul>
             </div>
             <div class="clearfix"></div>

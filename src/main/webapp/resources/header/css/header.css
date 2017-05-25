@@ -1,10 +1,14 @@
 /*--Header-Starts--*/
 .navigation {
     float: right;
+    height: 36px;
 }
 .logo {
     float: left;
-    margin-top: 1.8%;
+    margin-top: 0.6%;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #ff965a;
 }
 .logo a {
     display: block;
@@ -25,14 +29,15 @@
     -ms-transition: 0.5s all ease;
 }
 .header {
-    background: #403f45;
+    background: #f5f5f5;
 }
 ul.navig {
     padding: 0;
+    margin-top: 0%;
 }
 ul.navig li span {
     color: #fff;
-    margin: 0 15px;
+    margin: 0 5px;
     font-size: 16px;
 }
 ul.navig li {
@@ -40,10 +45,10 @@ ul.navig li {
 }
 ul.navig li a {
     font-size: 1.15em;
-    color: #fff;
+    color: #ffb675;
     font-weight: 400;
     text-decoration: none;
-    padding: 39px 20px;
+    padding: 10px 20px;
 }
 ul.navig li a:hover ul.navig li a:after{
     display: block;
@@ -241,7 +246,6 @@ input:focus {
 
 @media (max-width: 768px){
     span.menu:before {
-        content: url(../images/nav-icon.png);
         cursor: pointer;
         height:32px;
     }
@@ -269,7 +273,7 @@ input:focus {
         width: 100%;
         font-weight: 600;
         display: block;
-        color: rgba(64, 63, 69, 1);
+        color: rgba(0, 123, 111, 1);
     }
     span.menu {
         display: block;

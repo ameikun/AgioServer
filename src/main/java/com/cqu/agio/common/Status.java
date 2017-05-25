@@ -5,7 +5,8 @@ package com.cqu.agio.common;
  */
 public enum  Status {
     //it's normal
-    RETURN_OK(0,"OK"),
+    RETURN_OK(0,"OK"),//普通用戶登陸成功
+    RETURN_OKS(22,"OK"),//商家登陸成功
     // inner server error
     INNER_ERROR(1,"inner server error"),
     // illegal parameters

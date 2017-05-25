@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>卖家页面</title>
+    <title>agio</title>
     <link rel="stylesheet" href="/AgioServer/resources/sellerpage/css/sellerpage.css">
     <link href="/AgioServer/resources/common/css/bootstrap.css" rel="stylesheet">
 </head>

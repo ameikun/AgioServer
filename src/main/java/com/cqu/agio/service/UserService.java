@@ -140,8 +140,11 @@ public class UserService {
 			if (pd != null) {
 				boolean ret = pd.getPassword().equals(password);
 				if (ret) {
+					User user = userDAO.getUserByNickname(account);
+					String usertype = user.getType();
 					message.setMessage(Status.RETURN_OK);
 					message.setResult(pd.getUserID());
+					message.put("type",usertype);
 				} else {
 					message.setMessage(Status.AUTH_FAILED);
 					message.setResult(false);

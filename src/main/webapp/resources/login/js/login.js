@@ -21,7 +21,7 @@ $('#form-account').bind('input propertychange', function() {
 });
 
 $('#btn-login').click(function (e) {
-    login()
+    login();
 })
 
 $('#btn-send-mail').click(function () {
@@ -75,7 +75,12 @@ function process(data) {
         password = $("input[name=password]").val()
         setCookie("agio-account",account)
         setCookie("agio-password",password)
-        window.location.href="/AgioServer/views/mainpage.jsp"
+        alert(data.type);
+        if(data.type == "consummer"){
+            window.location.href="/AgioServer/views/unitetest.jsp"
+        }
+        else{
+        window.location.href="/AgioServer/views/mainpage.jsp"}
     }
     else
         alert("login failed！")

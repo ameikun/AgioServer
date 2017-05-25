@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forms</title>
+<title>agio</title>
 	<link href="/AgioServer/resources/common/css/bootstrap.css" rel="stylesheet">
 	<link href="/AgioServer/resources/login/css/forget.css" rel="stylesheet">
 </head>

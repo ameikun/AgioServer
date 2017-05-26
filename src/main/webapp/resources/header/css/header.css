@@ -13,6 +13,14 @@
 .logo a {
     display: block;
 }
+.logo a:hover {
+    color:#000000;
+    text-decoration:none;
+}
+.logo a:active {
+    color:#FFFFFF;
+    text-decoration:none;
+}
 .logo h1 a{
     font-size: 1.1em;
     font-weight: 700;

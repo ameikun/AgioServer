@@ -199,8 +199,9 @@
     })();
 </script>
 
-<div style="text-align:center;background-color: #00AEFF">
-    <iframe name="mainview" width=100% height=100% marginwidth=0 marginheight=0 frameborder="no" border="0"  src="mainfirstpage.jsp" ></iframe>
+<div style="text-align:center;background-color: #fdfff0">
+    <iframe name="mainview" width=100% height=100% marginwidth=0 marginheight=0
+            frameborder="no" border="0"  src="mainfirstpage.jsp" ></iframe>
 </div>
 
 <script src="/AgioServer/resources/mainpage/js/mainpage.js"></script>

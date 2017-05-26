@@ -13,7 +13,13 @@
     <script src="/AgioServer/resources/mainfirstpage/js/mainfirstpage.js"></script>
 </head>
 <body>
-<div class="content"></div>
+<div class="contenttop" id="mainpagetop">
+    <iframe name="mainviewtop" width=72%  marginwidth=0 marginheight=0
+            frameborder="no" border="0"  src="mainpage/mainpagetop.jsp" ></iframe>
+</div>
+<div class="content" id="mainpagecontent">
+
+</div>
 
 <div class="tipCon" id="tipCon">
     <div class="clickMe" id="clickMe">是不是你的菜？

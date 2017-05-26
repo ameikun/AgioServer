@@ -1,8 +1,21 @@
 *{margin:0;padding:0;}
+.contenttop
+{
+    width: 100%;
+    height: 24%;
+    background: #f2f2f2;
+    color:#000;
+    font-size:36px;
+    text-align:center;
+    margin:0 auto;
+    position:relative;
+}
 .content
 {
-    width: 100%;height: 100%;
-    background:#ccc;color:#000;
+    width: 100%;
+    height: 76%;
+    background: #fff9c6;
+    color:#000;
     font-size:36px;
     text-align:center;
     margin:0 auto;
@@ -20,7 +33,9 @@
 }
 .clickMe
 {
-    height:24px;background:#CCC;line-height:24px;
+    height:24px;
+    background:#CCC;
+    line-height:24px;
 }
 .showPic
 {

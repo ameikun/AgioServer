@@ -33,18 +33,26 @@
                     }
                     var welcome = "欢迎你！";
                     var name = getCookie("agio-account");
-                    document.write("&nbsp;&nbsp;&nbsp");
-                    document.write(welcome);
-                    document.write(name);
+                    if(name==""||name==null)
+                    {
+                        document.write("&nbsp;&nbsp;&nbsp");
+                        document.write("<a class='logo' href='login.jsp'>请登录</a>");
+                    }
+                    else{
+                        document.write("&nbsp;&nbsp;&nbsp");
+                        document.write(welcome);
+                        document.write(name);
+                    }
                 </script>
             </div>
             <div class="navigation">
                 <span class="menu"></span>
                 <ul class="navig">
                     <li><a id = "home_li" href="mainpage.jsp" class="hvr-bounce-to-bottom">主页</a></li>
+                    <li><a id = "register_li" href="register.jsp" class="hvr-bounce-to-bottom">注册</a></li>
                     <li><a id = "plan_li" href="usercollect.jsp"  class="hvr-bounce-to-bottom">收藏夹</a></li>
                     <li><a id = "personal_li" href="personmainpage.jsp" class="hvr-bounce-to-bottom">个人中心</a></li>
-                    <li><a id = "contact_li" href="#" class="hvr-bounce-to-bottom">联系我们</a></li>
+                    <li><a id = "contact_li" href="contact.jsp" class="hvr-bounce-to-bottom">联系我们</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>

@@ -25,7 +25,9 @@
 {
     float: left;
     width: 10%;
-    height: 970px;
+    height: 1375px;
+    /*contentmid.jsp中的内容增加时，为了防止里层出来条形，修改此处以及下面两处的高度至合适大小
+    此处的不适应后期修改*/
     background: #f2f2f2;
     color:#000;
     font-size:20px;
@@ -37,7 +39,7 @@
 {
     float: left;
     width: 80%;
-    height: 970px;
+    height: 1375px;
     background: #d8e1ff;
     color:#000;
     font-size:20px;
@@ -49,7 +51,7 @@
 {
     float: left;
     width: 10%;
-    height: 970px;
+    height: 1375px;
     background: #f2f2f2;
     color:#000;
     font-size:20px;
@@ -61,13 +63,13 @@
 .tipCon
 {
     position:fixed;
-    bottom: 200px;
+    bottom: 38px;
     /*background:#efefef;*/
-    color:#d03322;
-    font-size:15px;
-    font-weight: 500;
+    color: #ff840f;
+    font-size:14px;
+    font-weight: 600;
     text-align:center;
-    right: 20px;
+    right: 18px;
 }
 .clickMe
 {

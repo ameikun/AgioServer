@@ -12,7 +12,7 @@
 <div class="footer">
     <div class="container">
         <div class="footer-main">
-            <p>Copyright &copy; 2016.Company IotShare All rights reserved</p>
+            <p>Copyright &copy; 2016.Company AiZGo Share All rights reserved</p>
         </div>
     </div>
 </div>

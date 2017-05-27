@@ -200,10 +200,12 @@
 </script>
 
 <div style="text-align:center;background-color: #fdfff0">
-    <iframe name="mainview" width=100% height=100% marginwidth=0 marginheight=0
-            frameborder="no" border="0"  src="mainfirstpage.jsp" ></iframe>
+    <jsp:include page="/views/mainfirstpage.jsp"/>
+    <!--<iframe name="mainview" width=100% height=100% marginwidth=0 marginheight=0
+            frameborder="no" border="0"  src="mainfirstpage.jsp" ></iframe>-->
 </div>
 
 <script src="/AgioServer/resources/mainpage/js/mainpage.js"></script>
+<jsp:include page="/views/footer.jsp"/>
 </body>
 </html>

@@ -23,7 +23,7 @@
         <div id="nav">
             <div class="navbar clearfix">
                 <a class="navbt" href="baidumap.jsp"><span>附近地图</span></a>
-                <a class="current" href="#">首页</a>
+                <a class="current" href="mainpage.jsp">首页</a>
                 <a href="#">餐饮美食</a>
                 <a href="#">休闲娱乐</a>
                 <a href="#">旅游住宿</a>

@@ -37,7 +37,7 @@
 	          <img src="/AgioServer/resources/storemainpage/images/banner1.jpg" alt=""/>
 	        </li>
 	        <li>
-	          <img src="/AgioServer/resources/storemainpage/images/banner.jpg" alt=""/>
+	          <img src="/AgioServer/resources/storemainpage/images/moda1.jpg" alt=""/>
 	        </li>
 	      </ul>
 	  </div>
@@ -74,22 +74,22 @@
 		<div class="grid_1">
 			<div class="container">
 				<h2>What's Special for Today</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+				<p>具有亲和力 Accessible 乐观积极 Upbeat 魅力四射 Ambitious 独一无二 Unique</p>
 			</div>
 		</div>
 
-		<div class="box_1">
+		<!--<div class="box_1">
 			<div class="col-xs-4 span_1">
 				<img src="/AgioServer/resources/storemainpage/images/1.jpg" class="img-responsive" alt=""/>
 			</div>
 			<div class="col-xs-4 span_1">
-				<img src="/AgioServer/resources/storemainpage/images/2.jpg" class="img-responsive" alt=""/>
+				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
 			</div>
 			<div class="col-xs-4 span_1">
 				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
 			</div>
 			<div class="clearfix"> </div>
-		</div>
+		</div>-->
 
 		<div class="content-news">
 			<div class="container">
@@ -99,11 +99,11 @@
 
 					<div class="col-news-top">
 					<a href="#" class="date-in">
-						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc2.jpg" alt="">
+						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/yichun1.jpg" alt="">
 						<div class="month-in">
 						  <label>
-							<span class="day">15</span>
-							<span class="month">Feb</span>
+							<span class="day">9</span>
+							<span class="month">May</span>
 						  </label>
 						</div>
 					</a>
@@ -112,11 +112,11 @@
 
 					<div class="col-news-top">
 					<a href="#" class="date-in">
-						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc.jpg" alt="">
+						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/moda5.jpg" alt="">
 						<div class="month-in">
 						  <label>
-							<span class="day">15</span>
-							<span class="month">Feb</span>
+							<span class="day">28</span>
+							<span class="month">May</span>
 						  </label>
 						</div>
 					</a>
@@ -125,11 +125,11 @@
 
 					<div class="col-news-top">
 					<a href="#" class="date-in">
-						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc1.jpg" alt="">
+						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/moda6.jpg" alt="">
 						<div class="month-in">
 						  <label>
 							<span class="day">15</span>
-							<span class="month">Feb</span>
+							<span class="month">Jun</span>
 						  </label>
 						</div>
 					</a>
@@ -147,7 +147,7 @@
 						<div class="month-in">
 						  <label>
 							<span class="day">10</span>
-							<span class="month">January</span>
+							<span class="month">Jun</span>
 						  </label>
 						</div>
 					</a>
@@ -156,11 +156,11 @@
 				
 				<div class="col-news-top">
 					<a href="#" class="date-in">
-						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc1.jpg" alt="">
+						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/moda7.jpg" alt="">
 						<div class="month-in">
 						  <label>
-							<span class="day">15</span>
-							<span class="month">Feb</span>
+							<span class="day">16</span>
+							<span class="month">Aug</span>
 						  </label>
 						</div>
 					</a>
@@ -172,7 +172,7 @@
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc2.jpg" alt="">
 						<div class="month-in">
 						  <label>
-							<span class="day">08</span>
+							<span class="day">8</span>
 							<span class="month">March</span>
 						  </label>
 						</div>
@@ -192,24 +192,24 @@
 				<h3 class="m_1"><span>Our Star Product</span></h3>
 				<div class="team-left">
 					<div class="col-sm-3 team-top">
-					<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/p1.jpg" alt="" /></a>
-						<h6>Contrary to popular</h6>
-						<p>But I must explain to you how all this mistaken idea of denouncing</p>
+					<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m1.jpg" alt="" /></a>
+						<h6>雪纺上衣</h6>
+						<p>今年流行的一字领搭配可爱的喇叭袖，性感可爱的风格，百褶雪纺知性的红色</p>
 					</div>
 					<div class="col-sm-3 team-top team-in">
-						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/p2.jpg" alt="" /></a>
-						<h6>Sed ut perspiciatis</h6>
-						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui bland</p>
+						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m2.jpg" alt="" /></a>
+						<h6>雪纺连衣裙</h6>
+						<p>都市风连衣裙，搭配今年流行的碎花设计</p>
 					</div>
 					<div class="col-sm-3 team-top">
-						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/p3.jpg" alt="" /></a>
-						<h6>praising pain</h6>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m3.jpg" alt="" /></a>
+						<h6>蕾丝连衣裙</h6>
+						<p>纯色简约风</p>
 					</div>
 					<div class="col-sm-3 team-top top-team">
-						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/p4.jpg" alt="" /></a>
-						<h6>corrupti quos</h6>
-						<p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
+						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m4.jpg" alt="" /></a>
+						<h6>短袖</h6>
+						<p>白色甜美的上衣搭配黑色百搭连衣裙</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

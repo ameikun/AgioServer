@@ -66,8 +66,10 @@
 				</div>
 				<div class="col-md-6 contact-in">
 					<h3>contact information</h3>
-					<p class="sed-para"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor.</p>
-					<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  </p>					<div class="more-address"> 
+					<p class="sed-para">沙坪坝区三峡广场步行街新世纪百货凯瑞商都2楼(Vero Moda新世纪百货凯瑞商都专柜)</p>
+					<p class="para1">VERO MODA源自欧洲经典女装品牌, 致力于为世界各地的摩登女性打造优雅时装,
+						它代表着当今最前沿的时尚潮流与制衣工艺。至今已在中国开设了1800多家店铺。
+						这是三峡广场的商业文化街，被中宣部、国内贸易部等6部委命名为“全国百城万店无假货示范街”，又是重庆长江三峡文明长廊建设示范点。</p>					<div class="more-address">
 						
 						<div class="address-more">
 							<p>电话:  15163944350</p>

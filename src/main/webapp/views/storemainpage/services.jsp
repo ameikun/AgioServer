@@ -60,13 +60,13 @@
 				<div class="service-in">
 				<div class="col-sm-4 span_2">
 				<a href="#" class="mask">
-				<img src="/AgioServer/resources/storemainpage/images/s1.jpg" alt="image" class="img-responsive zoom-img">
+				<img src="/AgioServer/resources/storemainpage/images/moda.jpg" alt="image" class="img-responsive zoom-img">
 				</a>
 					<div class="number-top">
 					<span class="number">01.</span>
 					<div class="number-in">
-						<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
-						<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+						<h6><a href="#">优雅 Elegant</a></h6>
+						<p>VERO MODA的目标人群是拥有敏锐时尚感的独立、成熟女性，她们想要以具有亲和力的价格购买散发十足潮流感的精致着装。</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -75,14 +75,14 @@
 				<div class="col-sm-4 span_2">
 					<div class="view effect">
 						<a href="#" class="mask">
-				<img src="/AgioServer/resources/storemainpage/images/s2.jpg" alt="image" class="img-responsive zoom-img">
+				<img src="/AgioServer/resources/storemainpage/images/moda8.jpg" alt="image" class="img-responsive zoom-img">
 				</a>				
 					</div>
 					<div class="number-top">
 					<span class="number">02.</span>
 					<div class="number-in">
-						<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
-						<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+						<h6><a href="#">复古情怀</a></h6>
+						<p>玫红色以及古铜金元素的使用则制造出新一季炙手可热的风格流行。</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -91,14 +91,14 @@
 				<div class="col-sm-4 span_2">
 					<div class="view effect">
 						<a href="#" class="mask">
-				<img src="/AgioServer/resources/storemainpage/images/s3.jpg" alt="image" class="img-responsive zoom-img">
+				<img src="/AgioServer/resources/storemainpage/images/moda2.jpg" alt="image" class="img-responsive zoom-img">
 				</a>					
 					</div>
 					<div class="number-top">
 					<span class="number">03.</span>
 					<div class="number-in">
-						<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
-						<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+						<h6><a href="#">终极幻想</a></h6>
+						<p>以黑白灰以及大地色为主，混合局部高饱和亮色，终极幻想系列打造全新的都市流行。</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -109,15 +109,17 @@
 			</div>
 			<div class="service-top-in">
 				<div class="container">
-					<h5 class="best">Trendz A to Z</h5>
+					<h5 class="best">店铺信息</h5>
 					<div class="ser-at">
-					<p>Labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel eum iure.</p>
+						<p>店铺星级：</p><p>4</p>
+					<p>营业时间：</p><p>7:00-21:30</p>
 					<a href="#" class="more">MORE</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 			</div>
-			<div class="service-bottom">
+
+			<!--<div class="service-bottom">
 				<div class="container">
 					<h3>Popular Info</h3>
 					<div class="ser-bottom">
@@ -140,6 +142,8 @@
 					</div>
 				</div>
 			</div>
+			-->
+
 		</div>
 	</div>
 	

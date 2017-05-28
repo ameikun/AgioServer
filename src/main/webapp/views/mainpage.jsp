@@ -80,11 +80,11 @@
                         <a class="hot" href="#">酒店</a>
                         <a href="#">旅游</a>
                         <div class="prosmore hide">
-                            <span><em><a href="#">全部(13602)</a></em></span>
-                            <span><em class="morehot"><a class="morehot" href="#">酒店(9044)</a></em></span>
-                            <span><em><a href="#">旅游(1775)</a></em></span>
-                            <span><em><a href="#">景点公园(935)</a></em></span>
-                            <span><em><a href="#">其他(1848)</a></em></span>
+                            <span><em><a href="#">全部(136)</a></em></span>
+                            <span><em class="morehot"><a class="morehot" href="#">酒店(90)</a></em></span>
+                            <span><em><a href="#">旅游(177)</a></em></span>
+                            <span><em><a href="#">景点公园(93)</a></em></span>
+                            <span><em><a href="#">其他(18)</a></em></span>
                         </div>
                     </li>
                     <li class="life">
@@ -122,22 +122,22 @@
                         <a href="#">服装</a>
                         <a href="#">鞋靴</a>
                         <div class="prosmore hide">
-                            <span><em><a href="#">全部(112343)</a> </em></span>
-                            <span><em class="morehot"><a class="morehot" href="#">服装(32747)</a> </em></span>
-                            <span><em><a href="#">生活家居(14441)</a> </em></span>
-                            <span><em><a href="#">食品饮料(10116)</a> </em></span>
-                            <span><em><a href="#">化妆品(12707)</a> </em></span>
-                            <span><em><a href="#">箱包(7621)</a> </em></span>
-                            <span><em><a href="#">家用电器(3775)</a> </em></span>
-                            <span><em><a href="#">手机数码(3639)</a> </em></span>
-                            <span><em><a href="#">鞋靴(11686)</a> </em></span>
-                            <span><em><a href="#">饰品(4558)</a> </em></span>
-                            <span><em><a href="#">手表(1482)</a> </em></span>
-                            <span><em><a href="#">母婴用品(3659)</a> </em></span>
-                            <span><em><a href="#">玩具(777)</a> </em></span>
+                            <span><em><a href="#">全部(1123)</a> </em></span>
+                            <span><em class="morehot"><a class="morehot" href="#">服装(347)</a> </em></span>
+                            <span><em><a href="#">生活家居(144)</a> </em></span>
+                            <span><em><a href="#">食品饮料(10)</a> </em></span>
+                            <span><em><a href="#">化妆品(127)</a> </em></span>
+                            <span><em><a href="#">箱包(76)</a> </em></span>
+                            <span><em><a href="#">家用电器(37)</a> </em></span>
+                            <span><em><a href="#">手机数码(36)</a> </em></span>
+                            <span><em><a href="#">鞋靴(116)</a> </em></span>
+                            <span><em><a href="#">饰品(45)</a> </em></span>
+                            <span><em><a href="#">手表(14)</a> </em></span>
+                            <span><em><a href="#">母婴用品(36)</a> </em></span>
+                            <span><em><a href="#">玩具(77)</a> </em></span>
                             <span><em><a href="#">抽奖(7)</a> </em></span>
                             <span><em><a href="#">礼品(197)</a> </em></span>
-                            <span><em><a href="#">其他(4931)</a> </em></span>
+                            <span><em><a href="#">其他(49)</a> </em></span>
                         </div>
                     </li>
                     <li class="hotareas nochild last">

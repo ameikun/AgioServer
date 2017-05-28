@@ -77,10 +77,10 @@ function process(data) {
         setCookie("agio-password",password)
         alert(data.type);
         if(data.type == "consummer"){
-            window.location.href="/AgioServer/views/unitetest.jsp"
+            window.location.href="/AgioServer/views/mainpage.jsp"
         }
         else{
-        window.location.href="/AgioServer/views/mainpage.jsp"}
+        window.location.href="/AgioServer/views/storemainpage/firstpage.jsp"}
     }
     else
         alert("login failed！")

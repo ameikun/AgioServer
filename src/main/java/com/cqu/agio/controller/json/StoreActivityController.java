@@ -12,7 +12,7 @@ import javax.inject.Inject;
  * Created by Amei on 2017/5/16.
  */
 @Controller
-@RequestMapping("/unit")
+@RequestMapping("/views/storemainpage")
 public class StoreActivityController {
     private static Logger logger = Logger.getLogger(StoreActivityController.class);
     @Inject
@@ -22,6 +22,6 @@ public class StoreActivityController {
     {
         logger.info("addStoreActivity"+storeActivity);
         boolean result = storeActivityService.addStoreActivity(storeActivity).isSuccess();
-        return result == true ? "unitetest" : "login";
+        return result == true ? "storemainpage/about" : "login";
     }
 }

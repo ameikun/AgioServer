@@ -1,9 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 <title>agio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript">
 	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 	function hideURLbar(){ window.scrollTo(0,1); }
@@ -98,7 +96,7 @@
 					<div class="col-md-6 col-news-right">
 
 					<div class="col-news-top">
-					<a href="#" class="date-in">
+					<a href="about.jsp" class="date-in">
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/yichun1.jpg" alt="">
 						<div class="month-in">
 						  <label>
@@ -111,7 +109,7 @@
                 </div>
 
 					<div class="col-news-top">
-					<a href="#" class="date-in">
+					<a href="about.jsp" class="date-in">
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/moda5.jpg" alt="">
 						<div class="month-in">
 						  <label>
@@ -124,7 +122,7 @@
                 </div>
 
 					<div class="col-news-top">
-					<a href="#" class="date-in">
+					<a href="about.jsp" class="date-in">
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/moda6.jpg" alt="">
 						<div class="month-in">
 						  <label>
@@ -142,7 +140,7 @@
 					<div class="col-md-6 col-news">
 
 					<div class="col-news-top">
-					<a href="#" class="date-in">
+					<a href="about.jsp" class="date-in">
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc.jpg" alt="">
 						<div class="month-in">
 						  <label>
@@ -155,7 +153,7 @@
                 </div>
 				
 				<div class="col-news-top">
-					<a href="#" class="date-in">
+					<a href="about.jsp" class="date-in">
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/moda7.jpg" alt="">
 						<div class="month-in">
 						  <label>
@@ -168,7 +166,7 @@
                 </div>
 
 			    <div class="col-news-top">
-					<a href="#" class="date-in">
+					<a href="about.jsp" class="date-in">
 						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc2.jpg" alt="">
 						<div class="month-in">
 						  <label>
@@ -192,22 +190,22 @@
 				<h3 class="m_1"><span>Our Star Product</span></h3>
 				<div class="team-left">
 					<div class="col-sm-3 team-top">
-					<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m1.jpg" alt="" /></a>
+					<a href="services.jsp"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m1.jpg" alt="" /></a>
 						<h6>雪纺上衣</h6>
 						<p>今年流行的一字领搭配可爱的喇叭袖，性感可爱的风格，百褶雪纺知性的红色</p>
 					</div>
 					<div class="col-sm-3 team-top team-in">
-						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m2.jpg" alt="" /></a>
+						<a href="services.jsp"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m2.jpg" alt="" /></a>
 						<h6>雪纺连衣裙</h6>
 						<p>都市风连衣裙，搭配今年流行的碎花设计</p>
 					</div>
 					<div class="col-sm-3 team-top">
-						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m3.jpg" alt="" /></a>
+						<a href="services.jsp"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m3.jpg" alt="" /></a>
 						<h6>蕾丝连衣裙</h6>
 						<p>纯色简约风</p>
 					</div>
 					<div class="col-sm-3 team-top top-team">
-						<a href="#"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m4.jpg" alt="" /></a>
+						<a href="services.jsp"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m4.jpg" alt="" /></a>
 						<h6>短袖</h6>
 						<p>白色甜美的上衣搭配黑色百搭连衣裙</p>
 					</div>

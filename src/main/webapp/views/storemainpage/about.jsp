@@ -1,11 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 <title>agio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="/AgioServer/resources/storemainpage/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="/AgioServer/resources/common/css/bootstrap.css" rel="stylesheet">
 <link href="/AgioServer/resources/storemainpage/css/style.css" rel='stylesheet' type='text/css' />
 <script src="/AgioServer/resources/storemainpage/js/jquery-1.11.1.min.js"></script>
 </head>
@@ -99,11 +98,22 @@
 			
 			<div class="about-bottom">
 				<div class="col-sm-7 our-mission">
-					<h4>Our Mission</h4>
-
-					<h6><a href="#">VERO MODA为独立自信的现代女性打造摩登而不失优雅的精致时装</a></h6>
-
-					<p>怀旧的色调、复古的剪裁、精细的印花让复古情怀系列诠释都市新贵最爱的精致时装格调。60年代的A字型短裙和阔腿剪裁、改良版的70年代修身喇叭裤，经典的复古单品在该系列中焕发摩登新姿。玫红色以及古铜金元素的使用则制造出新一季炙手可热的风格流行。</p>
+					<h4>添加最新活动信息</h4>
+					<form role="form" action="/AgioServer/views/storemainpage/addStoreActivity" method="post" class="">
+						<div class="">
+							<p>活动标题</p>
+							<input class="form-control" placeholder="店铺活动标题" name="sactivityTitle" type="text">
+							<p>活动内容</p>
+							<textarea class="form-control" placeholder="店铺活动信息" rows="5" name="sactivityInf" typeof="text"></textarea>
+							<!--<input class="form-control" placeholder="店铺活动信息" name="sactivityInf" type="text">
+							-->
+							<p>活动时间</p>
+							<input class="form-control" placeholder="活动时间" name="acTime" type="text">
+							<p></p>
+							<button type="submit" style="font-size: 1.3em;background:#6CB6B6;padding: 0.6em 1.7em;text-align: center;color: #fff;border: none;
+	outline:none;-webkit-appearance: none;">添加店铺活动</button>
+						</div>
+					</form>
 				</div>
 				<div class="col-sm-5 about_img">
 				<div class="view effect">

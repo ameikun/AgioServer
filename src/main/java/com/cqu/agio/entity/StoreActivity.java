@@ -11,4 +11,5 @@ public class StoreActivity {
     private String storeID;
     private String sactivityTitle;
     private String sactivityInf;
+    private String acTime;
 }

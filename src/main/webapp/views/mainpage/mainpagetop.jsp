@@ -30,7 +30,7 @@
         </li>
         <li class="big">
             <a>
-                <img src="http://gtms01.alicdn.com/tps/i1/T1qxGLFsVbXXbA5QAK-195-120.jpg_Q90.jpg">
+                <img src="/AgioServer/resources/mainpage/images/contentmid/chongbai1.gif">
                 <div class="info">
                     <h3 style="color:#ff578a">重百Baby购</h3>
                     <p>六.一宝宝该换装了，新品抢购</p>
@@ -54,10 +54,10 @@
         </li>
         <li>
             <a>
-                <img src="http://gtms04.alicdn.com/tps/i4/T1CCeIFrVbXXbA5QAK-195-120.jpg_Q90.jpg">
+                <img src="/AgioServer/resources/mainpage/images/contentmid/yonghui.gif">
                 <div class="info">
                     <h3 style="color:#d61939">永辉超市</h3>
-                    <p>补血养颜 就这么简单</p>
+                    <p>“粽”是想你，端午节快乐</p>
                     <p class="price"><strong>2.6</strong><i>折起</i></p>
                     <p class="more">进入专题抢购 &gt; </p>
                 </div>

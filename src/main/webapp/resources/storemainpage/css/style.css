@@ -648,6 +648,7 @@ p.your-para{
 .contact-grid textarea{
 	resize:none;
 }
+
 .send input[type="submit"]{
     font-size: 1.5em;
 	background:#6CB6B6;
@@ -659,7 +660,7 @@ p.your-para{
 	-webkit-appearance: none;
 }
 .send input[type="submit"]:hover{
-	background:#000;
+	background: #19b6b5;
 }
 .contact-form {
 	padding:3em 0 0 0;

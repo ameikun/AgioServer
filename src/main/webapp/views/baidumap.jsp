@@ -8,7 +8,8 @@
         body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
     </style>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=vPnit5DKt5oKxLiGXKYsGrp8bSKt6ZUY"></script>
-    <title>agio浏览器定位</title>
+    <title>agio</title>
+    <!--浏览器定位-->
 </head>
 <body>
 <div id="allmap"></div>

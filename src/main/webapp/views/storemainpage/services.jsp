@@ -1,10 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 <title>agio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="/AgioServer/resources/storemainpage/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/AgioServer/resources/storemainpage/css/style.css" rel='stylesheet' type='text/css' />
@@ -113,7 +110,7 @@
 					<div class="ser-at">
 						<p>店铺星级：</p><p>4</p>
 					<p>营业时间：</p><p>7:00-21:30</p>
-					<a href="#" class="more">MORE</a>
+					<a href="../store.jsp" class="more">MORE</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

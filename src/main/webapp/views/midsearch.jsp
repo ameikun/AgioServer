@@ -12,6 +12,9 @@
     <link href="/AgioServer/resources/mainpage/css/mainpage.css" rel="stylesheet">
 </head>
 <body>
+<div class="logoagio">
+    <img src="/AgioServer/resources/mainpage/images/logo.png">
+</div>
 <div class="zySearch" id="zySearch"></div>
 <script type="text/javascript" src="/AgioServer/resources/mainpage/js/jquery-1.7.2.js"></script>
 <script type="text/javascript" src="/AgioServer/resources/mainpage/js/Search.js"></script>

@@ -49,7 +49,7 @@
 				<div class="col-md-6 contact-grid">
 					<h3>联系信息</h3>
 					<form>
-						<p class="your-para">Your mail:</p>
+						<p class="your-para">Your account:</p>
 						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
 						<p class="your-para">Your mail:</p>
 						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
@@ -70,8 +70,8 @@
 						这是三峡广场的商业文化街，被中宣部、国内贸易部等6部委命名为“全国百城万店无假货示范街”，又是重庆长江三峡文明长廊建设示范点。</p>					<div class="more-address">
 						
 						<div class="address-more">
-							<p>电话:  15163944350</p>
-							<p>传真:  190-4509-494</p>
+							<p>电话:  15163944350</p><br>
+							<p>传真:  190-4509-494</p><br>
 							<p>邮箱：  <a href="#">amei@163.com</a></p>
 						</div>
 						<div class="clearfix"> </div>

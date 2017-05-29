@@ -78,7 +78,7 @@
 
 		<!--<div class="box_1">
 			<div class="col-xs-4 span_1">
-				<img src="/AgioServer/resources/storemainpage/images/1.jpg" class="img-responsive" alt=""/>
+				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
 			</div>
 			<div class="col-xs-4 span_1">
 				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
@@ -97,7 +97,7 @@
 
 					<div class="col-news-top">
 					<a href="about.jsp" class="date-in">
-						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/yichun1.jpg" alt="">
+						<img class="img-responsive mix-in" src="/AgioServer/resources/storemainpage/images/pc1.jpg" alt="">
 						<div class="month-in">
 						  <label>
 							<span class="day">9</span>

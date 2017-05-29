@@ -44,16 +44,16 @@
             <div class="about-bottom">
                 <div class="col-sm-7 our-mission">
                     <h3>JOIN US</h3>
-                    <form role="form" action="/AgioServer/shop/addStore" method="post" class="">
+                    <form role="form" action="/AgioServer/views/addStore" method="post" class="">
                         <div class="">
                             <p>店铺名称</p>
                             <input class="form-control" placeholder="店铺名称" name="shopName" type="text">
                             <p>店铺地址</p>
                             <input class="form-control" placeholder="店铺地址" name="shopAddress" type="text">
                             <p>营业开始时间</p>
-                            <input class="form-control" placeholder="营业开始时间" name="startTime" type="long">
+                            <input class="form-control" placeholder="营业开始时间" name="startTime" type="text">
                             <p>营业结束时间</p>
-                            <input class="form-control" placeholder="营业结束时间" name="endTime" type="long">
+                            <input class="form-control" placeholder="营业结束时间" name="endTime" type="text">
                             <br>
                             <button type="submit" style="font-size: 1.3em;background:#6CB6B6;padding: 0.6em 1.7em;text-align: center;color: #fff;border: none;
 	outline:none;-webkit-appearance: none;">添加</button>

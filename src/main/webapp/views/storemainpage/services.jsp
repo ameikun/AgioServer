@@ -2,7 +2,25 @@
 <html>
 <head>
 <title>agio</title>
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script type="text/javascript">
+        var attime;
+        function clock(){
+            var time=new Date();
+            attime=time.getHours()+":"+time.getMinutes()+":"+time.getSeconds();
+            document.getElementById("clock").value = attime;
+        }
+        setInterval(clock,1000);
+	</script>
+<script type="application/x-javascript">
+	addEventListener("load", function()
+	{
+	    setTimeout(hideURLbar, 0);
+	}, false);
+	function hideURLbar()
+	{
+	    window.scrollTo(0,1);
+	}
+</script>
 <link href="/AgioServer/resources/storemainpage/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="/AgioServer/resources/storemainpage/css/style.css" rel='stylesheet' type='text/css' />
 <script src="/AgioServer/resources/storemainpage/js/jquery-1.11.1.min.js"></script>
@@ -73,7 +91,7 @@
 					<div class="view effect">
 						<a href="#" class="mask">
 				<img src="/AgioServer/resources/storemainpage/images/moda8.jpg" alt="image" class="img-responsive zoom-img">
-				</a>				
+				</a>
 					</div>
 					<div class="number-top">
 					<span class="number">02.</span>
@@ -89,7 +107,7 @@
 					<div class="view effect">
 						<a href="#" class="mask">
 				<img src="/AgioServer/resources/storemainpage/images/moda2.jpg" alt="image" class="img-responsive zoom-img">
-				</a>					
+				</a>
 					</div>
 					<div class="number-top">
 					<span class="number">03.</span>
@@ -102,45 +120,37 @@
 				<div class="border"> </div>
 				</div>
 				<div class="clearfix"> </div>
-				</div>	
+				</div>
 			</div>
+
+
+
+
 			<div class="service-top-in">
 				<div class="container">
 					<h5 class="best">店铺信息</h5>
 					<div class="ser-at">
-						<p>店铺星级：</p><p>4</p>
-					<p>营业时间：</p><p>7:00-21:30</p>
+						<p>店铺星级：</p>
+						<p>4</p>
+					<p>营业时间：</p>
+						<p>7:00-21:30</p>
+						<p>当前时间：</p>
+						<input type="text" id="clock" size="70"
+							   style="color:#6CB6B6;width:100px;border: hidden;font-size: 20px;background-color: #eee"/><p></p>
 					<a href="../store.jsp" class="more">MORE</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 			</div>
 
-			<!--<div class="service-bottom">
+			<div class="service-bottom">
 				<div class="container">
-					<h3>Popular Info</h3>
-					<div class="ser-bottom">
-						<div class="col-sm-4 flex-in">
-							<h4>Flexible</h4>
-							<p>Magnam aliquam quaerat voluptatemut enim ad minima veniam, quis nostrum exercitation em ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel.</p>
-							<a href="#" class="more">MORE</a>
-						</div>
-						<div class="col-sm-4 flex-in">
-							<h4>Convenient</h4>
-							<p>Magnam aliquam quaerat voluptatemut enim ad minima veniam, quis nostrum exercitation em ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel.</p>
-							<a href="#" class="more">MORE</a>
-						</div>
-						<div class="col-sm-4 flex-in">
-							<h4>Local</h4>
-							<p>Magnam aliquam quaerat voluptatemut enim ad minima veniam, quis nostrum exercitation em ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel.</p>
-							<a href="#" class="more">MORE</a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+					<h3>店铺评论</h3>
+					<p><br></p>
+					<iframe name="servicecomment" width=100%  height="1300px" marginwidth=0 marginheight=0
+							frameborder="no" border="0"  src="../commentstore.jsp" ></iframe>
 				</div>
 			</div>
-			-->
-
 		</div>
 	</div>
 	

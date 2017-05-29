@@ -44,16 +44,16 @@
             <div class="col-md-6 contact-grid">
                 <h3>联系信息</h3>
                 <form>
-                    <p class="your-para">Your mail:</p>
+                    <p class="your-para">您的姓名:</p>
                     <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-                    <p class="your-para">Your mail:</p>
+                    <p class="your-para">您的邮箱:</p>
                     <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-                    <p class="your-para">Your phone number:</p>
+                    <p class="your-para">您的联系方式:</p>
                     <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-                    <p class="your-para">Your message:</p>
+                    <p class="your-para">您的建议:</p>
                     <textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
                     <div class="send">
-                        <input type="submit" value="Send" >
+                        <input type="submit" value="发送" >
                     </div>
                 </form>
             </div>

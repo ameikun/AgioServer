@@ -9,15 +9,6 @@
 <html>
 <head>
     <title>agio统一暂时页面</title>
-    <script type="text/javascript">
-        var attime;
-        function clock(){
-            var time=new Date();
-            attime=time.getHours()+":"+time.getMinutes()+":"+time.getSeconds();
-            document.getElementById("clock").value = attime;
-        }
-        setInterval(clock,1000);
-    </script>
     <link href="/AgioServer/resources/common/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
@@ -28,7 +19,6 @@
         <button type="submit" class="">添加积分</button>
     </div>
 </form>
-
 <form role="form" action="/AgioServer/unit/addCoupon" method="post" class="">
     <div class="">
         <input class="" placeholder="优惠额度" name="couponLimit" type="int">
@@ -38,15 +28,6 @@
     </div>
 </form>
 
-<form role="form" action="/AgioServer/unit/addStoreActivity" method="post" class="">
-    <div class="">
-        <input class="" placeholder="店铺活动标题" name="sactivityTitle" type="text">
-        <input class="" placeholder="店铺活动信息" name="sactivityInf" type="text">
-        <button type="submit" class="">添加店铺活动</button>
-    </div>
-</form>
-
-<input type="text" id="clock" size="50" style="color:#0094ff;width:60px";  />
 
 </body>
 </html>

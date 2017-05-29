@@ -12,7 +12,7 @@ import javax.inject.Inject;
  * Created by Amei on 2017/5/15.
  */
 @Controller
-@RequestMapping("/shop")
+@RequestMapping("/views")
 public class StoreController {
     private static Logger logger = Logger.getLogger(StoreController.class);
     @Inject

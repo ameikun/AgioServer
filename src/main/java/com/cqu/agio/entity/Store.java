@@ -12,7 +12,7 @@ public class Store {
     private String shopimageID;//上传图片
     private String shopName;
     private String shopAddress;
-    private Long startTime;
-    private Long endTime;
+    private String startTime;
+    private String endTime;
     private Integer startLevel;
 }

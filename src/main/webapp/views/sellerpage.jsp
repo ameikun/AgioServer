@@ -23,8 +23,7 @@
     </div>
 </form>
 <div class="pageleft">
-    <button type="button" class="">添加商品</button>
-    <button type="button" class="">更新广告</button>
+
 </div>
 </body>
 </html>

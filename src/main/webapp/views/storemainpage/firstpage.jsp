@@ -215,6 +215,11 @@
 		</div>
 	</div>
 	</div>
-	
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p class="footer-grid">Copyright &copy; 2017.Company name All rights reserved.</p>
+	</div>
+</div>
 </body>
 </html>

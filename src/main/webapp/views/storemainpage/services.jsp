@@ -49,7 +49,7 @@
 			<div class="top-nav">			
 					<span class="menu"> </span>
 					<ul>
-						<li><a href="firstpage.jsp" class="scroll" >主页</a></li>
+						<li><a href="firstpage.jsp" class="scroll" data-hover="主页">主页</a></li>
 						<li><a href="about.jsp" class="scroll" data-hover="关于">关于</a></li>
 						<li class="active"><a href="services.jsp" class="scroll" data-hover="服务">服务</a></li>
 						<li><a href="../mainpage.jsp" class="scroll" data-hover="AiZGo主页">AiZGo主页</a></li>

@@ -22,13 +22,13 @@
         <div class="content">
             <div class="main">
                 <p class="txt">
-                    <span class="user">Andy：</span>甜美吊带装，这个夏天很甜美！知性又减龄的搭配。
+                    <span class="user">天使的翅膀：</span>甜美吊带装，这个夏天很甜美！知性又减龄的搭配。
                 </p>
                 <img class="pic" src="../resources/storemainpage/images/1.jpg" alt=""/>
             </div>
 
             <div class="info clearfix">
-                <span class="time">02-14 23:01</span>
+                <span class="time">05-14 23:01</span>
                 <a class="praise" href="javascript:;">赞</a>
             </div>
 
@@ -75,7 +75,7 @@
                 <div class="comment-box clearfix" user="other">
                     <img class="myhead" src="../resources/storemainpage/images/comment/headimage2.jpg" alt=""/>
                     <div class="comment-content">
-                        <p class="comment-text"><span class="user">老鹰：</span>最爱都市风</p>
+                        <p class="comment-text"><span class="user">水是醒着的冰：</span>最爱都市风</p>
                         <p class="comment-time">
                             2017-04-19 14:36
                             <a href="javascript:;" class="comment-praise" total="0" my="0">赞</a>
@@ -98,7 +98,7 @@
         <div class="content">
             <div class="main">
                 <p class="txt">
-                    <span class="user">小Y：</span>活动期间购买真的很实惠。
+                    <span class="user">Amei：</span>活动期间购买真的很实惠。
                 </p>
             </div>
             <div class="info clearfix">

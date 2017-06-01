@@ -22,6 +22,6 @@ public class StoreActivityController {
     {
         logger.info("addStoreActivity"+storeActivity);
         boolean result = storeActivityService.addStoreActivity(storeActivity).isSuccess();
-        return result == true ? "storemainpage/about" : "login";
+        return result == true ? "storemainpage/about" : "error";
     }
 }

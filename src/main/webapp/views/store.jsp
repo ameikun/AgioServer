@@ -43,7 +43,7 @@
         <div class="container">
             <div class="about-bottom">
                 <div class="col-sm-7 our-mission">
-                    <h3>JOIN US</h3>
+                    <h3>加入AiZGo</h3>
                     <form role="form" action="/AgioServer/views/addStore" method="post" class="">
                         <div class="">
                             <p>店铺名称</p>

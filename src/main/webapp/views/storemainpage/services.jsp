@@ -71,7 +71,7 @@
 	<div class="content">
 		<div class="about">
 			<div class="container">
-				<h3>SERVICES</h3>
+				<h3>服 务</h3>
 				<div class="service-in">
 				<div class="col-sm-4 span_2">
 				<a href="#" class="mask">
@@ -137,7 +137,7 @@
 						<p>当前时间：</p>
 						<input type="text" id="clock" size="70"
 							   style="color:#6CB6B6;width:100px;border: hidden;font-size: 20px;background-color: #eee"/><p></p>
-					<a href="../store.jsp" class="more">MORE</a>
+					<a href="../store.jsp" class="more">更 多...</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

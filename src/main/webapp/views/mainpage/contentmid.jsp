@@ -19,9 +19,7 @@
     { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); }
     </script>
-    <!--webfont-->
-    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <script type="text/javascript">
+     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){
                 event.preventDefault();

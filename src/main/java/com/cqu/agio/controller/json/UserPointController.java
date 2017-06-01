@@ -23,7 +23,7 @@ public class UserPointController {
     {
         logger.info("addUserPoint:"+userPoint);
         boolean result = userPointService.addUserPoint(userPoint).isSuccess();
-        return result == true ? "unitetest" : "login";
+        return result == true ? "unitetest" : "error";
 
     }
 }

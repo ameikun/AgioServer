@@ -39,7 +39,7 @@
             <ul class="grid-lod effect-2" id="">
                 <li>
                     <section class="blog-content">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <figure>
                                 <div class="post-date">
                                     <span>24</span> May 2017
@@ -55,7 +55,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <figure>
                                 <div class="post-date">
                                     <span>20</span> May 2017
@@ -72,15 +72,15 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <figure>
                                 <div class="post-date">
                                     <span>01</span> July 2017</div>
-                                <img src="../resources/personpage/images/haolilai.gif" alt="" class="img-responsive"/>
+                                <img src="/AgioServer/resources/mainpage/images/contentmid/neweast1.jpg" alt="" class="img-responsive"/>
                             </figure>
                         </a>
                         <article>
-                            沃尔玛端午节粽子热卖，满400减50！
+                            新东方雅思端午特惠，团报优惠，5人减100！
                         </article>
                     </section>
                 </li>
@@ -127,7 +127,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <figure>
                                 <div class="post-date">
                                     <span>22</span> May 2017
@@ -143,7 +143,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <figure>
                                 <div class="post-date">
                                     <span>24</span> July 2017

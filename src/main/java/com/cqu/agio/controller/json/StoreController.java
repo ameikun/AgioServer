@@ -22,6 +22,6 @@ public class StoreController {
     public String addStore(Store store){
         logger.info("addStore:"+store);
         boolean result = storeService.addStore(store).isSuccess();
-        return result == true ? "store" : "login";
+        return result == true ? "store" : "error";
     }
 }

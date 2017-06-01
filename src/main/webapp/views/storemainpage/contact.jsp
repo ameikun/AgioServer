@@ -49,21 +49,21 @@
 				<div class="col-md-6 contact-grid">
 					<h3>联系信息</h3>
 					<form>
-						<p class="your-para">Your account:</p>
+						<p class="your-para">你的账号:</p>
 						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-						<p class="your-para">Your mail:</p>
+						<p class="your-para">你的邮箱:</p>
 						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-						<p class="your-para">Your phone number:</p>
+						<p class="your-para">你的电话:</p>
 						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-						<p class="your-para">Your message:</p>
+						<p class="your-para">你的消息:</p>
 						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
 						<div class="send">
-							<input type="submit" value="Send" >
+							<input type="submit" value="发送" >
 						</div>
 					</form>
 				</div>
 				<div class="col-md-6 contact-in">
-					<h3>contact information</h3>
+					<h3>商店信息</h3>
 					<p class="sed-para">沙坪坝区三峡广场步行街新世纪百货凯瑞商都2楼(Vero Moda新世纪百货凯瑞商都专柜)</p>
 					<p class="para1">VERO MODA源自欧洲经典女装品牌, 致力于为世界各地的摩登女性打造优雅时装,
 						它代表着当今最前沿的时尚潮流与制衣工艺。至今已在中国开设了1800多家店铺。

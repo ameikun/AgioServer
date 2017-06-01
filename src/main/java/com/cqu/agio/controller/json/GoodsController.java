@@ -22,7 +22,7 @@ public class GoodsController {
     public String addGoods(StoreGood storeGood) {
         logger.info("addGoods:"+storeGood);
         boolean result =  goodsService.addGoods(storeGood).isSuccess();
-        return result == true ? "sellerpage" : "login";//页面跳转，成功刷新页面，失败暂定跳转至登录页面
+        return result == true ? "sellerpage" : "error";//页面跳转，成功刷新页面，失败暂定跳转至错误页面
     }
 
 

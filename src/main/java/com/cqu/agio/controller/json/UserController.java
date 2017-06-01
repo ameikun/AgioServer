@@ -40,7 +40,8 @@ public class UserController {
 
 	/**
 	 * 根据不同的登陆类型来登陆
-	 * @param type : 登陆类型(不指定此参数时，默认为0)，包括: 0,默认的用用户别名登陆; 1,用电话号码登陆; 用email登陆
+	 * @param type : 登陆类型(不指定此参数时，默认为0)，包括: 0,默认的用用户别名登陆;
+	 *                1,用电话号码登陆; 用email登陆
 	 * @param account : 登陆帐号
 	 * @param password : 账户密码
 	 * @return
@@ -76,11 +77,13 @@ public class UserController {
 
 	@RequestMapping(value = "/updateHead")
 	@ResponseBody
-	public Message upload(@RequestParam(value = "file", required = false) MultipartFile file, String userID, HttpServletRequest request) {
+	public Message upload(@RequestParam(value = "file", required = false)
+									  MultipartFile file, String userID, HttpServletRequest request)
+	{
 		message = new Message();
 		String path = System.getProperty("webappRoot");
 		path = path+"profileImages"+System.getProperty("file.separator");
-		logger.info("image path:" + path);
+		logger.info("-----------------image path:" + path);
 		if ( file != null && userID != null ) {
 			String fileName = file.getOriginalFilename();
 			String suffix = fileName.substring(fileName.indexOf('.'),fileName.length());

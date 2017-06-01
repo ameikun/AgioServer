@@ -22,6 +22,6 @@ public class CouponController {
     {
         logger.info("addCoupon"+coupon);
         boolean result = couponService.addCoupon(coupon).isSuccess();
-        return result == true ? "unitetest" : "login";
+        return result == true ? "unitetest" : "error";
     }
 }

@@ -44,7 +44,7 @@
 	<div class="header">
 		<div class="header-top">
 			<div class="logo">
-			   <h1><a href="firstpage.jsp">VERO MODA</a></h1>
+				<h1><a href="firstpage.jsp">VERO MODA</a></h1>
 			</div>
 			<div class="top-nav">			
 					<span class="menu"> </span>
@@ -71,27 +71,14 @@
 	<div class="content">
 		<div class="grid_1">
 			<div class="container">
-				<h2>What's Special for Today</h2>
+				<h2>今天的你最特别</h2>
 				<p>具有亲和力 Accessible 乐观积极 Upbeat 魅力四射 Ambitious 独一无二 Unique</p>
 			</div>
 		</div>
 
-		<!--<div class="box_1">
-			<div class="col-xs-4 span_1">
-				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
-			</div>
-			<div class="col-xs-4 span_1">
-				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
-			</div>
-			<div class="col-xs-4 span_1">
-				<img src="/AgioServer/resources/storemainpage/images/3.jpg" class="img-responsive" alt=""/>
-			</div>
-			<div class="clearfix"> </div>
-		</div>-->
-
 		<div class="content-news">
 			<div class="container">
-				<h3 class="m_1"><span>NEW</span>S</h3>
+				<h3 class="m_1"><span>新品</span></h3>
 				<div class="news-left">			
 					<div class="col-md-6 col-news-right">
 
@@ -187,7 +174,7 @@
 		<!----->
 		<div class="content-team">
 			<div class="container">
-				<h3 class="m_1"><span>Our Star Product</span></h3>
+				<h3 class="m_1"><span>明星产品</span></h3>
 				<div class="team-left">
 					<div class="col-sm-3 team-top">
 					<a href="services.jsp"><img class="img-responsive" src="/AgioServer/resources/storemainpage/images/m1.jpg" alt="" /></a>

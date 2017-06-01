@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-sm-5 about_img">
                     <div class="view effect">
-                        <a href="#" class="mask">
+                        <a href="javascript:void(0)" class="mask">
                             <img src="/AgioServer/resources/storemainpage/images/joinus.jpg" alt="image" class="img-responsive zoom-img">
                         </a>
                     </div>

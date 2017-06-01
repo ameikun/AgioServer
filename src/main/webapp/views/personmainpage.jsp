@@ -39,7 +39,7 @@
             <ul class="grid-lod effect-2" id="">
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>24</span> May 2017
@@ -55,7 +55,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>20</span> May 2017
@@ -72,7 +72,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>01</span> July 2017</div>
@@ -91,7 +91,7 @@
             <ul class="grid-lod effect-2" id="grid">
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>03</span> Jun 2017
@@ -108,7 +108,7 @@
                 </li>
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>20</span> May 2017
@@ -127,7 +127,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>22</span> May 2017
@@ -143,7 +143,7 @@
 
                 <li>
                     <section class="blog-content">
-                        <a href="#">
+                        <a href="javascript:void(0)">
                             <figure>
                                 <div class="post-date">
                                     <span>24</span> July 2017

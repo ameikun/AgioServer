@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
     <title>agio统一暂时页面</title>
@@ -23,7 +24,7 @@
     <div class="">
         <input class="" placeholder="优惠额度" name="couponLimit" type="int">
         <input class="" placeholder="优惠原因" name="couponReason" type="text">
-        <input class="" placeholder="过期时间" name="expireDate" type="int">
+        <input class="" placeholder="过期时间" name="expireDate" type="text">
         <button type="submit" class="">添加优惠券</button>
     </div>
 </form>

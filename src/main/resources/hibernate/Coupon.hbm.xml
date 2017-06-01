@@ -9,6 +9,6 @@
         <property  generated="never" lazy="false" name="couponLimit" type="int"/>
         <property  generated="never" lazy="false" name="couponReason" type="string"/>
         <property  generated="never" lazy="false" name="receiveDate" type="string"/>
-        <property  generated="never" lazy="false" name="expireDate" type="int"/>
+        <property  generated="never" lazy="false" name="expireDate" type="string"/>
     </class>
 </hibernate-mapping>

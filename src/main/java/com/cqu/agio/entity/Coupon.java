@@ -11,5 +11,5 @@ public class Coupon {
     private Integer couponLimit;
     private String couponReason;
     private String receiveDate;
-    private Integer expireDate;
+    private String expireDate;
 }

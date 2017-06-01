@@ -1,4 +1,6 @@
-﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+﻿<%@ page contentType="text/html; charset=utf-8" language="java" isELIgnored="false"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <html>
 <head>
 <title>agio</title>
@@ -65,6 +67,24 @@
 
 					<div class="col-md-4 in-profile">
 					<h4>近期活动</h4>
+						<div class="col-in-about">
+							<script type="text/javascript">
+                                if('${storeActivity.sactivityTitle}'==""||'${storeActivity.sactivityTitle}'==null)
+                                {
+                                    // alert("添加活动失败！活动主题不能为空");
+                                }
+                                else{
+                                    document.write("<span class='in-sed'>新</span>");
+                                    alert("添加活动成功！");
+                                }
+							</script>
+							<div class="left-sit">
+								<h6><a href="#">${storeActivity.sactivityTitle}</a></h6>
+								<p>${storeActivity.sactivityInf}</p>
+								<p>${storeActivity.acTime}</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 					<div class="col-in-about">
 						<span class="in-sed">1</span>
 						<div class="left-sit">
@@ -83,15 +103,6 @@
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="col-in-about">
-						<span class="in-sed">3</span>
-						<div class="left-sit">
-							<h6><a href="#">新品春装两件九折，冬装满500八折</a></h6>
-							<p>使用条件：店内所有新品春装、促销冬装</p>
-							<p>活动时间：2017/03/01 - 2017/04/01</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>	
 				</div>
 				<div class="clearfix"> </div>
 			</div>

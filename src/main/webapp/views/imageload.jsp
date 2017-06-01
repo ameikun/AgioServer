@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page contentType="text/html; charset=utf-8" language="java" isELIgnored="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <!DOCTYPE html>
@@ -34,10 +34,11 @@
         <div class="container">
             <div class="col-md-4 header-left">
                 <a data-toggle="modal" data-target="#upload-head">
-                    <img src="${user.profileImageUrl}" alt=""/></a>
+                    <img src="${user.profileImageUrl}" alt=""/>
+                </a>
             </div>
             <div class="col-md-8 header-right">
-                <h1>${user.nickname}</h1>
+                <h1>用户名：${user.nickname}</h1>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -68,7 +69,6 @@
                             <div class="spinner" style="display: none">Loading...</div>
                         </div>
                         <div class="action">
-                            <!-- <input type="file" id="file" style=" width: 200px">-->
                             <div class="new-contentarea tc">
                                 <a href="javascript:void(0)" class="upload-img">
                                     <label for="get-file">选择图像</label>

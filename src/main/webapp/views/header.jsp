@@ -48,11 +48,12 @@
             <div class="navigation">
                 <span class="menu"></span>
                 <ul class="navig">
-                    <li><a id = "home_li" href="mainpage.jsp" class="hvr-bounce-to-bottom">主页</a></li>
-                    <li><a id = "register_li" href="register.jsp" class="hvr-bounce-to-bottom">注册</a></li>
-                    <li><a id = "plan_li" href="usercollect.jsp"  class="hvr-bounce-to-bottom">收藏夹</a></li>
-                    <li><a id = "personal_li" href="personmainpage.jsp" class="hvr-bounce-to-bottom">个人中心</a></li>
-                    <li><a id = "contact_li" href="contact.jsp" class="hvr-bounce-to-bottom">联系我们</a></li>
+                    <li><a id = "home_li" href="/AgioServer/views/mainpage.jsp" class="hvr-bounce-to-bottom">主页</a></li>
+                    <li><a id = "register_li" href="/AgioServer/views/register.jsp" class="hvr-bounce-to-bottom">注册</a></li>
+                    <li><a id = "plan_li" href="/AgioServer/views/usercollect.jsp"  class="hvr-bounce-to-bottom">收藏夹</a></li>
+                    <!--<li><a id = "personal_li" href="personmainpage.jsp" class="hvr-bounce-to-bottom">个人中心</a></li>
+                    --><li><a id = "personal_li" href="#" class="hvr-bounce-to-bottom">个人中心</a></li>
+                    <li><a id = "contact_li" href="/AgioServer/views/contact.jsp" class="hvr-bounce-to-bottom">联系我们</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>

@@ -19,6 +19,10 @@ public class StoreService {
 
     private Message message = new Message();
 
+    /**
+    *添加店铺
+    * @return
+    */
     public Message addStore(Store store){
         message.clear();
         if (store.getShopName()==null)
@@ -50,4 +54,34 @@ public class StoreService {
         }
         return message;
     }
+    /***
+     * 查找同一个地址的店铺是否存在
+     */
+    public Message isStoreExit(String shopName,String shopAddress)
+    {
+        message.clear();
+        if (shopName == null||shopName.equals(""))
+        {
+            message.setMessage(Status.ILLEGAL_PARAMS);
+        }
+        if (shopAddress == null||shopAddress.equals(""))
+        {
+            message.setMessage(Status.ILLEGAL_PARAMS);
+        }
+        else {
+            Store store = storeDAO.getStoreByName(shopName);
+            if(store == null)
+            {
+                message.setMessage(Status.NO_RESULT);
+            }
+            else {
+                if(store.getShopAddress().equals(shopAddress))
+                    message.setMessage(Status.RETURN_OK);
+                else
+                    message.setMessage(Status.NO_RESULT);
+            }
+        }
+        return message;
+    }
+
 }

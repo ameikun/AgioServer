@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
     $('fieldset:first-child').fadeIn('slow');
     
     $('input[type="text"], .registration-form input[type="password"], .registration-form textarea').on('focus', function() {
-    	$(this).removeClass('input-error');
+        $(this).removeClass('input-error');
     });
     
     // next step
@@ -76,13 +76,13 @@ jQuery(document).ready(function() {
 			async:true,
 			type:"post",
 			data: {"name": username},
-			dataType: "text",
+			dataType: "json",
 			error: function(){ //失败
-				alert(username);
+				alert(username+"链接错误！");
 			},
-			success:function(msg){
-				if ( msg == "true"){
-					alert("the user exists!");
+			success:function(data){
+                if ( data.status == "0"){
+					alert("用户名已存在，请修改用户名!");
 					$("#form-name").addClass('input-error');
 				}
 			}
@@ -94,10 +94,10 @@ jQuery(document).ready(function() {
 		url: "/AgioServer/user/qqLogin",
 		async: true,
 		type: "post",
-		data: {"nickname":"wang2"},
+		data: {"nickname":"ning"},
 		dataType: "text",
 		error: function () { //失败
-			alert("error happened");
+			//alert("error happened");
 		},
 		success: function (msg) {
 			alert(msg);

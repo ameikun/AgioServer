@@ -63,6 +63,12 @@ public class UserController {
 		return service.login(type,account,password);
 	}
 
+	@RequestMapping(value = "/isExist")
+	@ResponseBody
+	public Message isExist(String name) {
+		return service.isUserExist(name);
+	}
+
 	@RequestMapping(value = "/getUser")
 	@ResponseBody
 	public Message getSpecifiedUser(String name){

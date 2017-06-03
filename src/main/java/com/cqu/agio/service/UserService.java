@@ -77,6 +77,22 @@ public class UserService {
 	}
 
 
+	public Message isUserExist( String nickname){
+		message.clear();
+		if (nickname == null || nickname.equals("")){
+			message = new Message(Status.ILLEGAL_PARAMS);
+		}
+		else{
+			User user = userDAO.getUserByNickname(nickname);
+			if ( user == null )
+				message = new Message(Status.NO_RESULT);
+			else{
+				message = new Message(Status.RETURN_OK);
+				message.setResult(user);
+			}
+		}
+		return message;
+	}
 
 	/**
 	 * 获取所有注册的人数

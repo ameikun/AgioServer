@@ -12,6 +12,7 @@
     <link href="/AgioServer/resources/imageload/css/personal.css" type="text/css" rel="stylesheet" media="all">
     <link href="/AgioServer/resources/imageload/css/head-image.css" type="text/css" rel="stylesheet" media="all">
     <!--js-->
+    <script src="/AgioServer/resources/common/js/bootstrap.js"></script>
     <script src="/AgioServer/resources/common/js/jquery.min.js"></script>
     <!--start-smooth-scrolling-->
     <script type="text/javascript" src="/AgioServer/resources/imageload/js/move-top.js"></script>

@@ -40,7 +40,7 @@ $("#plan_li").click(function () {
 
 $("#personal_li").click(function () {
     userID  = getCookie("userID")
-    window.location="/AgioServer/personal?userID="+userID
+    window.location="/AgioServer/imageload?userID="+userID
 })
 
 $("#about_li").click(function () {

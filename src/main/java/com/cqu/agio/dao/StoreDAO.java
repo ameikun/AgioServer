@@ -12,5 +12,25 @@ import javax.inject.Inject;
 public class StoreDAO {
     @Inject
     private BaseDAO baseDAO;
-    public boolean addStore(Store store){return baseDAO.save(store);}
+    public boolean addStore(Store store)
+    {
+        return baseDAO.save(store);
+    }
+    public boolean updateStore(Store store)
+    {
+        return baseDAO.update(store);
+    }
+    /***
+     * 根据所给的店铺名获取店铺
+     */
+    public Store getStoreByName(String storeName)
+    {
+        String hsql="from Store store where store.shopName = ?";
+        return (Store)baseDAO.uniqueResult(hsql,storeName);
+    }
+    public Store getStoreByID(String storeID)
+    {
+        String hsql="from Store store where store.storeID = ?";
+        return (Store)baseDAO.uniqueResult(hsql,storeID);
+    }
 }

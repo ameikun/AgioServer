@@ -12,7 +12,7 @@ import javax.inject.Inject;
  * Created by Amei on 2017/5/31.
  */
 @Controller
-@RequestMapping("/views")
+@RequestMapping("/image")
 public class ImageComtroller {
     private static Logger logger = Logger.getLogger(ImageComtroller.class);
     @Inject

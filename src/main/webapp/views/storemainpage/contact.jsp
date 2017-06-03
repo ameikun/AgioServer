@@ -33,6 +33,10 @@
 						$(".top-nav ul").slideToggle(500, function(){
 						});
 					});
+					function sendclick()
+					{
+					    alert("发送成功！");
+					}
 			</script>
 				</div>
 				<div class="clearfix"> </div>
@@ -58,7 +62,7 @@
 						<p class="your-para">你的消息:</p>
 						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
 						<div class="send">
-							<input type="submit" value="发送" >
+							<input type="submit" value="发送" onclick="sendclick()">
 						</div>
 					</form>
 				</div>
